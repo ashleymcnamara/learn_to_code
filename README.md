@@ -66,7 +66,7 @@ Web development has been very popular lately, so there are many resources for le
 
 [Scratch](https://www.youtube.com/watch?v=4y6J2jXjU34) is a little different from other languages. It was designed from the ground up to be easy to use and learn -- instead of typing text, you drag and connect together "blocks" to form programs, making it a very visual language. As a result, Scratch is a good language especially for younger children (elementary schoolers, middle schoolers) or for people who dislike typing.
 
-### How this page is organized
+### How this page is organized...
 
 This page is subdivided into three parts -- first, a "General resources" section that links to sites that tend to deliver high-quality content about a variety of topics, and a "Specific resources" section that provides resources on specific programming languages or topics.
 
@@ -90,7 +90,7 @@ Once you've moved past the beginning phase, then it would be a good idea to try 
 
 When I say that a resource is "heavy in theory" or "is rigorous", I mean that it leans towards the first category. When I say that a resource "focuses on syntax", I mean that it leans towards the second. And when I say a resource "focuses on idioms" or "on practical applications", I mean that it leans towards the third.
 
-### Warning
+### Warning!
 
 This page is still a work-in-progress! Some sections may currently be incomplete, and some links may not yet be fully vetted.
 
