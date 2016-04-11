@@ -23,6 +23,7 @@
     - [Perl](#perl)
     - [PHP](#php)
     - [Python](#python)
+    - [Goland](#goland)
     - [Ruby](#ruby)
     - [Scratch](#scratch)
 - [Other topics](#other-topics)
@@ -680,6 +681,56 @@ If you're not sure which version to pick, my recommendation would be to pick the
 
   [python-pyschools]: http://www.pyschools.com/
   [pymotw]: http://pymotw.com/
+
+### Golang
+The Go programming language is an open source project to make programmers more productive.
+
+Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.
+
+In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
+
+- Books (online):
+  - [The Little Go Book](http://openmymind.net/The-Little-Go-Book/) The Little Go Book is a free introduction to Google's Go programming language. It's aimed at developers who might not be quite comfortable with the idea of pointers and static typing. It's longer than the other Little books, but hopefully still captures that little feeling.
+- Books (paper):
+  - [Go in Action](http://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781/ref=sr_1_2?ie=UTF8&qid=1460415974&sr=8-2&keywords=golang):
+    - Go in Action introduces the Go language, guiding you from inquisitive developer to Go guru. The book begins by introducing the unique features and concepts of Go. Then, you'll get hands-on experience writing real-world applications including websites and network servers, as well as techniques to manipulate and convert data at speeds that will make your friends jealous.
+  - [The Way to Go: A Thorough Introduction to the Go Programming Language](http://www.amazon.com/Way-Go-Thorough-Introduction-Programming-ebook/dp/B0083RVAJW/ref=sr_1_9?ie=UTF8&qid=1460415974&sr=8-9&keywords=golang):
+    - Pros:
+Book is very relevant and up-to-date, well-structured (maybe too well-structured at times), covers virtually everything in Go language, has a myriad of useful code examples.
+    - Cons: Author is not a native speaker and it shows. At times it is a bit hard to understand his writing - proofreading was definitely needed.
+  - [Introducing Go: Build Reliable, Scalable Programs](http://www.amazon.com/Introducing-Go-Reliable-Scalable-Programs/dp/1491941952/ref=sr_1_6?ie=UTF8&qid=1460415974&sr=8-6&keywords=golang):
+    - Perfect for beginners familiar with programming basics, this hands-on guide provides an easy introduction to Go, the general-purpose programming language from Google. Author Caleb Doxsey covers the language’s core features with step-by-step instructions and exercises in each chapter to help you practice what you learn.
+  - [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?ie=UTF8&qid=1460415974&sr=8-1&keywords=golang):
+    - The Go Programming Language is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.
+- Videos
+  - [GoingGo.net](http://www.goinggo.net/) - A collection of videos and articles for learning Go.
+  - [O'Reilly Go Fundamentals](http://shop.oreilly.com/category/learning-path/go-fundamentals.do) - Video learning path for Go programming.
+  - [Learn Go in an Hour](https://www.youtube.com/watch?v=CF9S4QZuV30)
+  - [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6): a multi-part video training class.
+
+- Exercises:
+  - [Exercism.io - Go](http://exercism.io/languages/go) - Online code exercises for Go for practice and mentorship.
+  - [Outlearn.com](https://www.outlearn.com/search?filter=path&q=golang) - Jump right into Go with a tour, helpful examples, sample app, and common pitfalls.
+  - [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.
+  - [Go Fragments](http://www.gofragments.net/) - A collection of annotated Go code examples.
+  - [Golang Tutorials](http://golangtutorials.blogspot.com/2011/05/table-of-contents.html) - A free online class.
+  - [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walk-through of the language.
+  - [Go By Example](http://gobyexample.com/) - Go by Example is a hands-on introduction to Go using annotated example programs. Check out the first example or browse the full list below.
+  -  [Pluralsight Classes for Go](http://www.pluralsight.com/tag/golang) - A growing collection of (paid) online classes.
+
+- Workshops:
+  - [Free Go Language Workshop](https://www.frameworktraining.co.uk/go-language-free-training-workshop/) Framework Training is running regular free BYOD workshops in London, UK
+  - [Workshop-Go](https://github.com/sendwithus/workshop-go) - Startup Slam Go Workshop - examples and slides.
+
+- Learning resources for specific topics:
+  - [LearnConcurrency](LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
+  - [LearnErrorHandling](LearnErrorHandling) links to resources about error handling in Go.
+  - [LearnTesting](LearnTesting) links to resources about testing in Go.
+  - [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
+
+- Further reading:
+  - [50 Shades of Go: Traps, Gotchas, Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
+  - [Newspaper](http://www.newspaper.io) is a topic based newsfeed for slack. Built on Go
 
 ### Ruby
 
