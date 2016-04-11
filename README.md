@@ -699,8 +699,8 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 - Videos
   - [GoingGo.net](http://www.goinggo.net/) - A collection of videos and articles for learning Go.
   - [O'Reilly Go Fundamentals](http://shop.oreilly.com/category/learning-path/go-fundamentals.do) - Video learning path for Go programming.
-  - [Learn Go in an Hour](https://www.youtube.com/watch?v=CF9S4QZuV30)
-  - [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6): a multi-part video training class.
+  - [Learn Go in an Hour](https://www.youtube.com/watch?v=CF9S4QZuV30) Learn the go programming language in one hour.
+  - [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6) - a multi-part video training class.
 - Exercises:
   - [Exercism.io - Go](http://exercism.io/languages/go) - Online code exercises for Go for practice and mentorship.
   - [Outlearn.com](https://www.outlearn.com/search?filter=path&q=golang) - Jump right into Go with a tour, helpful examples, sample app, and common pitfalls.
