@@ -23,7 +23,7 @@
     - [Perl](#perl)
     - [PHP](#php)
     - [Python](#python)
-    - [Goland](#goland)
+    - [Golang](#golang)
     - [Ruby](#ruby)
     - [Scratch](#scratch)
 - [Other topics](#other-topics)
