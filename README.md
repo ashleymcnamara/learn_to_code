@@ -40,8 +40,6 @@
 
 ### Goals
 
-The biggest question I get from people interested in software development is, _"Where do I start?"_
-
  Programming and computer science are becoming more popular than ever -- major initiatives like the [Hour of Code](http://hourofcode.com/us) are popularizing learning  programming across the world.
 
 As a consequence, there are an increasingly huge number of resources and tutorials being produced for beginners who want to learn to code, ranging from books to online tutorials to interactive websites to massive open online courses (MOOCS) like [Codecademy](https://www.codecademy.com/) and [Coursera](https://www.coursera.org/).
