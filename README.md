@@ -1,5 +1,5 @@
 # Introduction to Programming
-**(Resources for budding developers)**
+**Curated list of resources for budding developers**
 
 ## Table of contents
 
