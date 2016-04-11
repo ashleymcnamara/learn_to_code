@@ -781,7 +781,7 @@ There are two
     - edX's [Middle-Years Computer Science](https://www.edx.org/course/middle-years-computer-science-harveymuddx-cs001x#.VJw5rP-kAA) - a course designed to help teachers design an engaging computer science curriculum for middle-schoolers using Scratch.
 - Interactive tutorials: N/A
 - Video tutorials:
-    - [Video tutorials][scratch-official] from Scratch's website
+    - [A Collection of Scratch Videos][scratch-official] from Scratch's website
       A collection of video tutorials on Scratch for absolute beginners. Very comprehensive.
 - Books and tutorials (online):
     - [Invent with Scratch!][scratch-invent]
@@ -797,8 +797,12 @@ There are two
     - [Scratch for Educators][scratch-educators]
       Scratch's official portal and collection of resources for teaching using Scratch.
     - [More free books][scratch-more]
-- Books (paper): N/A
-- Exercises: N/A
+- Books (paper):
+  - [Scratch Cards](https://scratch.mit.edu/info/cards) - Scratch cards provide a quick way to learn new Scratch code.
+  - [Learn to Program with Scratch: A Visual Introduction to Programming with Games, Art, Science, and Math](http://www.amazon.com/Learn-Program-Scratch-Introduction-Programming/dp/1593275439/ref=sr_1_1?ie=UTF8&qid=1460418004&sr=8-1&keywords=scratch+programming) - In Learn to Program with Scratch, author Majed Marji uses Scratch to explain the concepts essential to solving real-world programming problems. The labeled, color-coded blocks plainly show each logical step in a given script, and with a single click, you can even test any part of your script to check your logic.
+  - [Super Scratch Programming Adventure! (Covers Version 2): Learn to Program by Making Cool Games](http://www.amazon.com/Scratch-Programming-Adventure-Covers-Version/dp/1593275315/ref=sr_1_5?ie=UTF8&qid=1460418004&sr=8-5&keywords=scratch+programming) - In Super Scratch Programming Adventure!, kids learn programming fundamentals as they make their very own playable video games. They'll create projects inspired by classic arcade games that can be programmed (and played!) in an afternoon. Patient, step-by-step explanations of the code and fun programming challenges will have kids creating their own games in no time.
+- Exercises:
+  - [SHS Programming 1 Exercises](https://scratch.mit.edu/studios/532108/) - LTPWS Studio of Exercises
 
   [scratch-official]: http://scratch.mit.edu/help/videos/
 
