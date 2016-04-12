@@ -64,7 +64,7 @@ Python and Java are both languages that are [commonly used](http://www.codingdoj
 
 Web development has been very popular lately, so there are many resources for learning HTML, CSS, and JavaScript, also making it suitable for learning. It requires little to no installation and configuration on your computer. All you need is a text editor to write code -- the code will run on your web browser.
 
-[Scratch](https://www.youtube.com/watch?v=4y6J2jXjU34) is a little different from other languages. It was designed from the ground up to be easy to use and learn -- instead of typing text, you drag and connect together "blocks" to form programs, making it a very visual language. As a result, Scratch is a good language especially for younger children _(elementary schoolers, middle schooARNING or for people who dislike typing.
+[Scratch](https://www.youtube.com/watch?v=4y6J2jXjU34) is a little different from other languages. It was designed from the ground up to be easy to use and learn -- instead of typing text, you drag and connect together "blocks" to form programs, making it a very visual language. As a result, Scratch is a good language especially for younger children _(elementary schoolers, middle school)_ or for people who dislike typing.
 
 ### How this page is organized...
 
