@@ -621,6 +621,8 @@ If you're not sure which version to pick, my recommendation would be to pick the
       Part of the "Learn X the Hard Way" series. Despite its name, this is one of the easiest introductions to Python available.
     - [Automate the Boring Stuff with Python][python-automate]
       A book for complete beginners. It is aimed at office workers, students, administrators, and hobbyists who want to learn how to write useful, practical programs rather than necessarily become software engineers. From the [Invent with Python][python-invent] author.
+    - [Real Python][real-python]
+      Learn by doing! Real Python teaches programming and web development through hands-on, interesting examples that are useful and fun!
     - How to Think Like a Computer Scientist ([Python 2 version][python-think-cs-2] and [Python 3 version][python-think-cs-3])
       A comprehensive introductory text on Python.
     - [Think Python][python-think]
@@ -676,6 +678,7 @@ If you're not sure which version to pick, my recommendation would be to pick the
   [python-hitchhiker]: https://python-guide.readthedocs.org/en/latest/
   [python-pycrumbs]: http://resrc.io/list/4/pycrumbs/
   [python-more]: https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python
+  [real-python]: https://realpython.com
 
   [python-import]: http://importpython.com/books/
 
