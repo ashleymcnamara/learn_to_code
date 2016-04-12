@@ -678,7 +678,7 @@ If you're not sure which version to pick, my recommendation would be to pick the
   [python-hitchhiker]: https://python-guide.readthedocs.org/en/latest/
   [python-pycrumbs]: http://resrc.io/list/4/pycrumbs/
   [python-more]: https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python
-  [real-python]: https://realpython
+  [real-python]: https://realpython.com
 
   [python-import]: http://importpython.com/books/
 
