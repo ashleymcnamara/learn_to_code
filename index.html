@@ -1,72 +1,1386 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Learn to code : Resources for budding developers">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Learn to code</title>
+    <meta charset="UTF-8">
+    <title>Learn to code by ashleymcnamara</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">Learn to code</h1>
+      <h2 class="project-tagline">Resources for budding developers</h2>
+      <a href="https://github.com/ashleymcnamara/learn_to_code" class="btn">View on GitHub</a>
+      <a href="https://github.com/ashleymcnamara/learn_to_code/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/ashleymcnamara/learn_to_code/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ashleymcnamara/learn_to_code">View on GitHub</a>
+    <section class="main-content">
+      <h1>
+<a id="introduction-to-programming" class="anchor" href="#introduction-to-programming" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction to Programming</h1>
 
-          <h1 id="project_title">Learn to code</h1>
-          <h2 id="project_tagline">Resources for budding developers</h2>
+<p><strong>Curated list of resources for budding developers</strong></p>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/ashleymcnamara/learn_to_code/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/ashleymcnamara/learn_to_code/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+<h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of contents</h2>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<ul>
+<li>
+<a href="#introduction">Introduction</a>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<ul>
+<li><a href="#Goals">Goals</a></li>
+<li><a href="#where-do-i-start">Where do I start?</a></li>
+<li><a href="#how-this-page-is-organized">How this page is organized</a></li>
+<li><a href="#which-resource-should-i-pick">Which resource should I pick?</a></li>
+<li><a href="#warning">Warning</a></li>
+</ul>
+</li>
+<li>
+<a href="#general-resources">General resources</a>
+
+<ul>
+<li><a href="#links-to-other-big-lists">Links to other big lists</a></li>
+<li><a href="#online-courses">Online courses</a></li>
+</ul>
+</li>
+<li>
+<a href="#programming-languages">Programming Languages</a>
+
+<ul>
+<li><a href="#c">C</a></li>
+<li><a href="#c-1">C++</a></li>
+<li><a href="#c-sharp">C#</a></li>
+<li><a href="#haskell">Haskell</a></li>
+<li><a href="#html-css-and-javascript">HTML, CSS, and JavaScript</a></li>
+<li><a href="#lisp-scheme-common-lisp-clojure-etc">Lisp (Scheme, Common Lisp, Clojure, etc)</a></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#perl">Perl</a></li>
+<li><a href="#php">PHP</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#golang">Golang</a></li>
+<li><a href="#ruby">Ruby</a></li>
+<li><a href="#scratch">Scratch</a></li>
+</ul>
+</li>
+<li>
+<a href="#other-topics">Other topics</a>
+
+<ul>
+<li>
+<a href="#developing-on-specific-platforms">Developing on specific platforms</a>
+
+<ul>
+<li><a href="#android">Android</a></li>
+<li><a href="#mac-and-ios">Mac and iOS</a></li>
+<li><a href="#windows-and-windows-phones">Windows and Windows Phones</a></li>
+</ul>
+</li>
+<li><a href="#data-structures-and-algorithms">Data structures and algorithms</a></li>
+</ul>
+</li>
+<li>
+<a href="#tools">Tools</a>
+
+<ul>
+<li>
+<a href="#version-control">Version control</a>
+
+<ul>
+<li><a href="#git">Git</a></li>
+<li><a href="#mercurial">Mercurial</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a id="goals" class="anchor" href="#goals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Goals</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<p>Programming and computer science are becoming more popular than ever -- major initiatives like the <a href="http://hourofcode.com/us">Hour of Code</a> are popularizing learning  programming across the world.</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<p>As a consequence, there are an increasingly huge number of resources and tutorials being produced for beginners who want to learn to code, ranging from books to online tutorials to interactive websites to massive open online courses (MOOCS) like <a href="https://www.codecademy.com/">Codecademy</a> and <a href="https://www.coursera.org/">Coursera</a>.</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>While this is great, it can also be overwhelming for beginners -- there are almost too <em>many</em> resources available, and it's difficult to figure out where to start.</p>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>This page is meant to help solve that problem -- to present a <strong>curated</strong> list of resources for people who are either new to programming, new to a particular topic, or want to advance their skills past the beginner stage. This page doesn't try and list every single resource available, but instead links to resources that are guaranteed to be high-quality.</p>
 
 <h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a id="where-do-i-start" class="anchor" href="#where-do-i-start" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Where do I start?</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+<p>If you know what you want to learn about, great! Jump to that section, start browsing the links, and find something which works for you.</p>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Learn to code maintained by <a href="https://github.com/ashleymcnamara">ashleymcnamara</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+<p>If you're not sure where to start and which language to learn, some good beginner languages are:</p>
+
+<ul>
+<li>
+<a href="#python">Python</a> (general-purpose; scientific and mathematical computing)</li>
+<li>
+<a href="#java">Java</a> (general-purpose; Android development)</li>
+<li>
+<a href="#html-css-and-javascript">HTML/CSS/JavaScript</a> (websites and webapps)</li>
+<li>
+<a href="#scratch">Scratch</a> (for younger children)</li>
+</ul>
+
+<p>Python and Java are both languages that are <a href="http://www.codingdojo.com/blog/9-most-in-demand-programming-languages-of-2016/">commonly used</a> to teach programming to beginners in schools and universities, and there are a wide variety of resources available to help you learn. They're also widely used in the industry which makes them useful languages to have in your toolbelt.</p>
+
+<p>Web development has been very popular lately, so there are many resources for learning HTML, CSS, and JavaScript, also making it suitable for learning. It requires little to no installation and configuration on your computer. All you need is a text editor to write code -- the code will run on your web browser.</p>
+
+<p><a href="https://www.youtube.com/watch?v=4y6J2jXjU34">Scratch</a> is a little different from other languages. It was designed from the ground up to be easy to use and learn -- instead of typing text, you drag and connect together "blocks" to form programs, making it a very visual language. As a result, Scratch is a good language especially for younger children (elementary schoolers, middle schoolers) or for people who dislike typing.</p>
+
+<h3>
+<a id="how-this-page-is-organized" class="anchor" href="#how-this-page-is-organized" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How this page is organized...</h3>
+
+<p>This page is subdivided into three parts -- first, a "General resources" section that links to sites that tend to deliver high-quality content about a variety of topics, and a "Specific resources" section that provides resources on specific programming languages or topics.</p>
+
+<p>In general, most resources available will fall between two categories -- online courses, and books + tutorials. Online courses tend to teach using video lectures, try and be more interactive, and try and emulate the structure of a course similar to ones you might take in college. In contrast, books and tutorials teach via written text and allow you to set your own pace.</p>
+
+<h3>
+<a id="which-resource-should-i-pick" class="anchor" href="#which-resource-should-i-pick" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Which resource should I pick?</h3>
+
+<p>Whether you prefer learning by watching a video or reading text is really a matter of personal preference. <em>I</em> personally prefer visual, but your learning style might be completely different. You may need to explore and browse several different resources before you discover how you best learn.</p>
+
+<p>In addition, you'll find that most links, whether they're online courses, tutorials, or books, tend to focus on either one of three things:</p>
+
+<ol>
+<li>Some resources focus on <em>programming</em>, <em>semantics</em>, or <em>computer science theory</em> -- in other words, how to use a programming language to write something that works.</li>
+<li>Other resources will focus more on <em>coding</em> and <em>syntax</em> -- the particular details and rules about how a programming language works.</li>
+<li>Other resources focus on teaching <em>idioms</em> -- teaching best practices specific to that language, the underlying philosophy of that language, or teaching you about the different libraries available to you: the broader ecosystem.</li>
+</ol>
+
+<p>If you're new to programming, the first model will be the best. Programming is all about applied problem solving: being able to take a problem, and break it up into smaller and smaller pieces until they're small enough to translate into computer code. Simply memorizing a collection of rules will not be very useful to you. You also need to learn how to <em>apply</em> those rules.</p>
+
+<p>However, if you already know how to program, then you most likely already know how to do this. In that case, you're going to want to use the second kind since it'll be easier to learn about the differences between the language you're learning and ones you already know.</p>
+
+<p>Once you've moved past the beginning phase, then it would be a good idea to try and move on to the third kind of resource, which will help teach you how to actually use and apply that language on a practical and professional level.</p>
+
+<p>When I say that a resource is "heavy in theory" or "is rigorous", I mean that it leans towards the first category. When I say that a resource "focuses on syntax", I mean that it leans towards the second. And when I say a resource "focuses on idioms" or "on practical applications", I mean that it leans towards the third.</p>
+
+<h3>
+<a id="warning" class="anchor" href="#warning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Warning!</h3>
+
+<p>This page is still a work-in-progress! Some sections may currently be incomplete, and some links may not yet be fully vetted.</p>
+
+<p>If you would like to contribute, please see <a href="https://github.com/ashleymcnamara/learn_to_code/blob/master/Contributing.md">CONTRIBUTING.md</a> for details.</p>
+
+<h2>
+<a id="general-resources" class="anchor" href="#general-resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General resources</h2>
+
+<h3>
+<a id="links-to-other-big-lists" class="anchor" href="#links-to-other-big-lists" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links to other big lists</h3>
+
+<p>You can find a huge and utterly massive compendium of <a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md">list of free programming books and resources on github</a>. (It used to be hosted on StackOverflow, but was moved over to Github on October 2013).</p>
+
+<p>You can also find a meta "list of programming resources" aggregator here: <a href="http://resrc.io/">http://resrc.io/</a></p>
+
+<h3>
+<a id="online-courses" class="anchor" href="#online-courses" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Online courses</h3>
+
+<p>Online courses are an increasingly popular way for universities and professionals to teach programming and computer science in a structured format. As a result, new online courses will pop up all the time, so it's worth checking these resources periodically to see what's new.</p>
+
+<ul>
+<li>
+<a href="http://www.codecademy.com/">Codecademy</a> - offers free online courses in several different languages. However, Codecademy does have a tendency to teach only basic syntax, so you may need work through more tutorials after finishing Codecademy. Focuses mainly on web development, Ruby, and Python.</li>
+<li>
+<a href="https://www.coursera.org/">Coursera</a> - offers free online courses in many different fields from several different well-known universities. New courses are added every quarter, and content from old courses is typically archived. Because many courses appear to be new/may be a one-time thing, this page will not link to courses on Coursera unless it appears to be stable.</li>
+<li>
+<a href="http://www.udacity.com/">Udacity</a> - offers free computer science courses taught by industry experts. Udacity offers two kinds of courses -- regular courses and nanodegrees. Regular courses are free. Regular courses with one-on-one tutoring/code review requires a monthly fee. Nanodegrees are typically for people with some prior coding experience, and cost more money.</li>
+<li>
+<a href="https://www.edx.org/">edX</a> - a joint effort between MIT, Harvard, and Berkeley to provide free online versions of some of their courses.</li>
+<li>
+<a href="http://www.openculture.com/computer_science_free_courses">OpenCulture</a> - similar to all of the above. Video lectures are typically available on iTunes or Youtube. Typically does <strong>not</strong> require you to complete assignments, unlike many other online courses.</li>
+<li>
+<a href="http://ocw.mit.edu/index.htm">MIT OpenCourseWare</a> - static course materials taught at MIT. Unless otherwise noted, most content from this website tends to be very rigorous and fast-paced.</li>
+<li>
+<a href="https://www.khanacademy.org/">Khan Academy</a> - contains a few courses on programming and computer science; does contain many more courses on all kinds of topics (especially math).</li>
+<li>
+<a href="http://see.stanford.edu/see/courses.aspx">Stanford Engineering Everywhere</a> - static course materials taught at Stanford.</li>
+</ul>
+
+<p>The following websites also contain a wide variety of tutorials for many different topics, but require payment and registration before you can access their courses.</p>
+
+<ul>
+<li>
+<a href="http://teamtreehouse.com/">Team Treehouse</a> - focuses on web and iOS development.</li>
+<li>
+<a href="http://www.lynda.com/">Lynda</a> - also includes courses on design, animation, video, business, and more.</li>
+<li>
+<a href="http://www.pluralsight.com/">PluralSight</a> - similar to Lynda, but with a focus on developer and IT courses.</li>
+<li> <a href="https://generalassemb.ly/">General Assembly</a> - also includes courses on design, animation, video, business, and more.</li>
+</ul>
+
+<p>In general, edX, OpenCulture, MIT OpenCourseware, and Stanford Engineering Everywhere tend to contain more rigorous, thorough, and demanding courses, whereas Codecademy and Khan Academy tend to focus on giving a more gentle introduction to programming. Coursera and Udacity tend to vary between these two extremes.</p>
+
+<h2>
+<a id="programming-languages" class="anchor" href="#programming-languages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Programming Languages</h2>
+
+<h3>
+<a id="c" class="anchor" href="#c" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>C</h3>
+
+<p>Note: C can be a difficult-to-teach language. Although the online courses and books are a good starting point and can take you a long way, the general consensus is that the best way to learn is through reading an actual book.</p>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>MIT Open Courseware has a few:
+
+<ul>
+<li>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/">Practical Programming in C</a>
+For beginners.</li>
+<li>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/">Introduction to C Memory Management and C++ Object-Oriented Programming</a>
+Geared towards people with prior experience in a programming language that is not C or C++.</li>
+<li>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/">Effective Programming in C and C++</a>
+Similar to the above.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://learn-c.org">Learn-C</a>
+An interactive online guide that teaches you basic C step-by-step.</li>
+</ul>
+</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li> <a href="http://c.learncodethehardway.org/book/">Learn C The Hard Way</a>
+Part of the "Learn X the Hard Way" series. Assumes you have prior programming experience. Currently incomplete, in progress.</li>
+<li> <a href="http://en.wikibooks.org/wiki/C_Programming">C Programming</a>
+One of Wikibooks' featured books. Tends to focus on teaching mainly syntax. A good starting point and reference.</li>
+<li> <a href="http://www.buildyourownlisp.com/">Build Your Own Lisp</a>
+Walks you through how to write a Lisp interpreter in C, teaching both languages simultaneously.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#c">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/C-Programming-Language-2nd-Edition/dp/0131103628/">The C Programming Language</a>
+The definitive guide to C. Also known as K&amp;R, after the authors.</li>
+<li>
+<a href="http://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list">The Definitive C Book Guide and List</a>
+A very well-maintained list of recommended books and resources on StackOverflow. Every book listed on this page is highly-recommended.</li>
+</ul>
+</li>
+<li>Exercises: N/A</li>
+</ul>
+
+<h3>
+<a id="c-1" class="anchor" href="#c-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>C++</h3>
+
+<p>Note: Similar to C, C++ can be a difficult-to-teach language. Although the online courses and books are a good starting point and can take you a long way, the general consensus is that the best way to learn is through reading an actual book.</p>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>MIT Open Courseware has a few:
+
+<ul>
+<li>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/">Introduction to C++</a>
+For beginners, is fast-paced.</li>
+<li>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/">Introduction to C Memory Management and C++ Object-Oriented Programming</a>
+Geared towards people with prior experience in a programming language that is not C or C++.</li>
+<li>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/">Effective Programming in C and C++</a>
+Similar to the above.</li>
+</ul>
+</li>
+<li>Stanford's 3-part "Introduction to Computer Science" series for beginners. The first course teaches Java, the latter two teaches C and C++.
+
+<ul>
+<li><a href="http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111">Programming Methodology</a></li>
+<li><a href="http://see.stanford.edu/see/courseinfo.aspx?coll=11f4f422-5670-4b4c-889c-008262e09e4e">Programming Abstractions</a></li>
+<li><a href="http://see.stanford.edu/see/courseinfo.aspx?coll=2d712634-2bf1-4b55-9a3a-ca9d470755ee">Programming Paradigms</a></li>
+</ul>
+</li>
+<li>Coursera's <a href="https://www.coursera.org/course/cplusplus4c">C++ for C Programmers</a>
+May also be helpful for programmers with prior experience in another language besides C or C++.</li>
+</ul>
+</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://nova.umuc.edu/%7Ejarc/sdsd/">C++ Interactive Exercises</a>
+An introduction to basic C++. Is a cross between an interactive tutorial and an online book.</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://greenteapress.com/thinkcpp/index.html">How to Think Like a Computer Scientist</a>
+A good introduction to basic C++.</li>
+<li>
+<a href="http://www.learncpp.com/">Learncpp.com</a>
+Tends to focus more on syntax, and less on programming. Might be useful for beginners, but as a reference, not a tutorial.</li>
+<li>
+<a href="https://github.com/jesyspa/linear-cpp">Linear C++</a>
+A tutorial on C++ for people with some prior programming experience. Teaches by presenting and explaining a series of programs.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#c-1">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list">The Definitive C++ Book Guide and List</a>
+A very well-maintained list of recommended books and resources on StackOverflow. Every book listed on this page is highly-recommended.</li>
+</ul>
+</li>
+<li>Exercises: N/A</li>
+</ul>
+
+<h3>
+<a id="c-sharp" class="anchor" href="#c-sharp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>C-Sharp</h3>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>Microsoft Virtual Academy has a few free courses:
+
+<ul>
+<li>
+<a href="http://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-Beginners">C# Fundamentals for Absolute Beginners</a>
+A series of videos produced by Microsoft on learning C#. For beginners.</li>
+<li>
+<a href="http://www.microsoftvirtualacademy.com/training-courses/developer-training-with-programming-in-c">Programming in C# Jump Start</a>
+Another series of videos produced by Microsoft. Assumes some prior knowledge of C#.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Interactive tutorials: N/A</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://en.wikibooks.org/wiki/C_Sharp_Programming">C# Programming</a>
+One of Wikibook's featured books. For beginners. Tends to focus on syntax, and would also make a good reference.</li>
+<li>
+<a href="http://www.csharpcourse.com/">The C# Yellow Book</a>
+The introductory text used by the University of Hull.</li>
+<li>
+<a href="http://www.techotopia.com/index.php/C_Sharp_Essentials">C# Essentials</a>
+An introductory text on C#. Also includes information on Windows Forms, Visual Studios, and making GUIs.</li>
+<li>
+<a href="http://msdn.microsoft.com/en-us/vstudio/hh341490">Visual C# resources</a>
+Microsoft's official series of tutorials and guides on C# and .NET.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#c-sharp">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="">Sam's Teach Yourself C# 5.0 in 24 Hours</a> by Scott Dorman
+A good introduction for beginners.</li>
+<li>
+<a href="http://www.amazon.com/Essential-Edition-Microsoft-Windows-Development/dp/0321877586">Essential C# 5.0</a>
+Very comprehensive, and intended more for intermediate programmers/programmings coming from another language.</li>
+<li>
+<a href="http://www.amazon.com/gp/product/161729134X">C# in Depth, 3rd Edition</a>
+Also very comprehensive, and covers how to write idiomatic and clean C# code. Assumes the reader already knows some C#.</li>
+<li>
+<a href="http://www.amazon.com/Effective-Specific-Ways-Improve-Your/dp/0321245660">Effective C#</a> and <a href="http://www.amazon.com/More-Effective-Specific-Ways-Improve/dp/0321485890">More Effective C#</a>
+A collection of tips and tricks to improve your C# code. Not for beginners.</li>
+</ul>
+</li>
+<li>Exercises: N/A</li>
+</ul>
+
+<h3>
+<a id="haskell" class="anchor" href="#haskell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Haskell</h3>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>edX's <a href="https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VJw54f-kAA">Introduction to Functional Programming</a>
+Assumes familiarity with a non-functional programming language (Java, Python, C#, C++, etc).</li>
+</ul>
+</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://tryhaskell.org/">Try Haskell</a>
+An interactive guide that teaches basic Haskell.</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://stackoverflow.com/a/1016986/646543">Getting started with Haskell</a>
+A comprehensive meta-guide that suggests the recommended order for following Haskell tutorials from beginning to advanced.</li>
+<li>
+<a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good</a>
+A beginner's introduction to Haskell. Tends to focus on syntax.</li>
+<li>
+<a href="http://en.wikibooks.org/wiki/Haskell">Haskell</a>
+One of Wikibook's featured books. Covers basic to advanced Haskell. Very comprehensive.</li>
+<li>
+<a href="http://book.realworldhaskell.org/">Real World Haskell</a>:
+Covers how to use Haskell for practical applications. This is a good second book to read, after completing one of the above tutorials.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#haskell">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper): N/A</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://haskell.org/haskellwiki/H-99:_Ninety-Nine_Haskell_Problems">H-99</a>
+A collection of 99 problems designed to increase your proficiency in Haskell.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="html-css-and-javascript" class="anchor" href="#html-css-and-javascript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML, CSS, and JavaScript</h3>
+
+<p>Note: HTML, CSS, and JavaScript are the three core technologies that runs on every web browser and makes up every webpage.</p>
+
+<p>HTML is a language used to describe the <em>structure</em> and <em>content</em> of a webpage. CSS is used to describe the <em>style</em> and <em>appearance</em>. JavaScript is used to add <em>behavior</em> and <em>interactivity</em>.</p>
+
+<p>The recommended learning order is typically to start with HTML and CSS, then move on to learning JavaScript once you feel you've acquired a basic understanding of the previous two.</p>
+
+<p>Also note that HTML and CSS are examples of "markup languages", not "programming languages" and so will feel fairly different from JavaScript. If your goal is to learn just programming, you might want to jump straight ahead to JavaScript (or pick a different programming language!). However, since the main way to actually use JavaScript is through the web browser, you <em>do</em> need to learn HTML and CSS at one point or another.</p>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>Dash teaches HTML, CSS, and Javascript through fun projects you can do in your browser.
+
+<ul>
+<li><a href="https://dash.generalassemb.ly/">Make a website</a></li>
+</ul>
+</li>
+<li>Codecademy has several courses related to web development.
+
+<ul>
+<li><a href="http://www.codecademy.com/skills/make-a-website">Make a website</a></li>
+<li><a href="http://www.codecademy.com/skills/make-an-interactive-website">Make an interactive website</a></li>
+<li><a href="http://www.codecademy.com/tracks/web">HTML &amp; CSS</a></li>
+<li><a href="http://www.codecademy.com/tracks/javascript">JavaScript</a></li>
+<li><a href="http://www.codecademy.com/tracks/jquery">jQuery</a></li>
+</ul>
+</li>
+<li>So does Udacity:
+
+<ul>
+<li><a href="https://www.udacity.com/course/ud304">Intro to HTML and CSS</a></li>
+<li>
+<a href="https://www.udacity.com/course/ud804">JavaScript Basics</a>
+Does require some prior programming experience.</li>
+</ul>
+</li>
+<li>Open Culture's <a href="http://cs75.tv/2010/fall/">Building Dynamic Websites</a>
+Hosted by Harvard, and covers a wide variety of topics.</li>
+<li>Khan Academy has a series of <a href="https://www.khanacademy.org/computing/computer-programming">three courses</a> on introductory Javascript that focuses on drawing graphics and animations, and making games.</li>
+<li>Team Treehouse has a series of courses on <a href="http://teamtreehouse.com/features/javascript">HTML</a>, <a href="http://teamtreehouse.com/features/css">CSS</a>, and <a href="http://teamtreehouse.com/features/javascript">Javascript</a>
+Allows a free 14-day trial, but later requires payment.</li>
+</ul>
+</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://css3please.com/">CSS3, please!</a>
+An interactive website that lets you dynamically change CSS rules to style an element on-screen. Not for beginners, but is a good way to discover advanced applications of CSS.</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a> (MDN)
+A series of tutorials covering HTML, CSS, JavaScript, and more. Some tutorials are appropriate for beginners while other tutorials will be more advanced.</li>
+<li>
+<a href="http://www.htmldog.com/">HtmlDog</a>
+Similar to the above, but targeted more specifically to beginners.</li>
+<li>
+<a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>
+A book that teaches you how to write idiomatic and clean JavaScript. Assumes prior experience with JavaScript/another programming language.</li>
+<li>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A Re-introduction to JavaScript</a>
+A guide which gives a thorough and detailed overview of JavaScript.</li>
+<li>
+<a href="http://resrc.io/list/18/javascript-frameworks/">JavaScript Frameworks Resources and Tutorials</a>
+Currently features Angular.js, Backbone.js, D3.js, Dojo, Ember.js, Express.js, jQuery, Knockout.js, and Meteor.</li>
+<li>More free books:
+
+<ul>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#html--css">HTML and CSS</a></li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#javascript">JavaScript</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/gp/product/0596517742">JavaScript: The Good Parts</a>
+A short book that covers the core aspects of JavaScript as well as info on writing idiomatic and clean JavaScript.</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://flukeout.github.io/">CSS Diner</a>
+A series of exercises on using CSS selectors effectively.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="lisp-scheme-common-lisp-clojure-etc" class="anchor" href="#lisp-scheme-common-lisp-clojure-etc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lisp (Scheme, Common Lisp, Clojure, etc)</h3>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>
+<a href="http://learnlispthehardway.org/">Learn Lisp the Hard Way</a> Brought to you by the Toronto Lisp User Group</li>
+</ul>
+</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://www.tryclj.com/">Try Clojure</a>
+An interactive tutorial for basic Clojure.</li>
+</ul>
+</li>
+<li>Video tutorials:
+
+<ul>
+<li>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/">Overview and Introduction to Lisp</a> videos from MIT open courseware</li>
+</ul>
+</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://www.defmacro.org/ramblings/lisp.html">The Nature of Lisp</a>
+Not really a tutorial on Lisp, but is instead an article on why so many people advocate Lisp and claim it will fundamentally change how you view code. Very good at explaining the philosophy of Lisp.</li>
+<li>
+<a href="http://mitpress.mit.edu/sicp/">Structure and Interpretation of Computer Programs</a>
+SICP is the canonical introduction to Lisp, and used to be part of MIT's introduction to CS course (before they switched to Python).
+
+<ul>
+<li>
+<a href="http://sicpinclojure.com/">SICP in Clojure</a>
+An amended version of SICP which uses Clojure instead of Scheme.</li>
+</ul>
+</li>
+<li>
+<a href="http://htdp.org/">How to Design Programs</a>
+A competing book and philosophy of teaching to SICP. SICP tends to focus more on CS theory whereas HTDP tends to focus more on writing how to go about writing programs/analyzing problems.</li>
+<li>
+<a href="http://www.buildyourownlisp.com/">Build Your Own Lisp</a>
+Walks you through how to write a Lisp interpreter in C, teaching both languages simultaneously.</li>
+<li>
+<a href="http://stackoverflow.com/q/7224823/646543">Practical Common Lisp</a>
+An introductory book on Common Lisp. Covers practical and real-world applications of Common Lisp.</li>
+<li>
+<a href="http://stackoverflow.com/q/7224823/646543">Where to learn how to practically use Common Lisp</a>
+An aggregation of books and resources on effectively using Common Lisp for programmers coming from an imperative world.</li>
+<li>
+<a href="http://learn-clojure.com/">Learn Clojure</a>
+A website collecting many links related to learning Lisp.</li>
+<li>More free books:
+
+<ul>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#clojure">Clojure</a></li>
+<li>
+<a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#lisp">Lisp</a> in general</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#scheme">Scheme</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/Land-Lisp-Learn-Program-Game/dp/1593272812">Land of Lisp</a>
+A book that teaches Lisp (specifically Common Lisp) via making games. For beginners.</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html">L-99</a>
+A series of 99 problems designed to increase your proficiency in Lisp.</li>
+<li>
+<a href="http://4clojure.com">4Clojure</a>
+A series of exercises geared around learning Clojure.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="java" class="anchor" href="#java" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Java</h3>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>Udacity's <a href="https://www.udacity.com/course/cs046">Intro to Java Programming</a>
+An objects-first introduction to Java.</li>
+<li>MIT Open Courseware:
+
+<ul>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm">Introduction to Programming in Java</a></li>
+<li>
+<a href="http://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/">Introduction to Computers and Engineering Problem Solving</a>
+For beginners, emphasizes practical application of Java.</li>
+</ul>
+</li>
+<li>Stanford's 3-part "Introduction to Computer Science" series for beginners. The first course teaches Java, the latter two teaches C and C++.
+
+<ul>
+<li><a href="http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111">Programming Methodology</a></li>
+<li><a href="http://see.stanford.edu/see/courseinfo.aspx?coll=11f4f422-5670-4b4c-889c-008262e09e4e">Programming Abstractions</a></li>
+<li><a href="http://see.stanford.edu/see/courseinfo.aspx?coll=2d712634-2bf1-4b55-9a3a-ca9d470755ee">Programming Paradigms</a></li>
+</ul>
+</li>
+<li>The University of Helsinki's "Object-Oriented programming with Java" series for beginners.
+
+<ul>
+<li><a href="http://mooc.fi/courses/2013/programming-part-1/">Part 1</a></li>
+<li><a href="http://mooc.fi/courses/2013/programming-part-2/">Part 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://www.learnjavaonline.org/">Learn Java</a>
+An interactive tutorial that teaches basic Java.</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://chortle.ccsu.edu/java5/index.html">Introduction to Computer Science using Java</a>
+An introductory text on Java. Moves a bit slowly, but covers everything in great detail (including setup).</li>
+<li>
+<a href="http://programmingbydoing.com/">Learn by Doing</a>
+An introductory text on Java. The tutorial is exercise-driven.</li>
+<li>
+<a href="http://greenteapress.com/thinkapjava/">Think Java</a>
+Another introductory text on Java. The content is based on the "How to think like a Computer Scientist" series.</li>
+<li>
+<a href="http://www.mindview.net/Books/TIJ/">Thinking in Java, 3rd edition</a>
+Note: the fourth edition is the latest one, but currently is not free. The website can also be a little hard to navigate -- the direct download link is <a href="http://www.mindviewinc.com/downloads/TIJ-3rd-edition4.0.zip">here</a>. Assumes some basic prior programming experience.</li>
+<li>
+<a href="http://www.tutorialspoint.com/java/index.htm">TutorialsPoint's Java Tutorial</a>
+An introduction to Java. Tends to focus mainly on syntax. May also make a good reference.</li>
+<li>
+<a href="http://docs.oracle.com/javase/tutorial/">The Java Tutorial</a>
+The official Java tutorial, produced by Oracle. Tends to focus on language features and syntax.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#java">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/Head-First-Java-2nd-Edition/dp/0596009208/">Head First Java</a>
+A beginner's introduction to Java.</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://practiceit.cs.washington.edu/">Practice-it</a>
+A series of exercises hosted by the University of Washington, starting with basic Java and finishing with data structures and algorithms. Requires (free) registration first before you can view or work on the exercises.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="perl" class="anchor" href="#perl" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Perl</h3>
+
+<ul>
+<li>Online courses: N/A</li>
+<li>Interactive tutorials: N/A</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://www.perl.org/books/beginning-perl/">Beginning Perl</a>
+A comprehensive and thorough introduction to Perl.</li>
+<li>
+<a href="http://modernperlbooks.com/books/modern_perl_2014/">Modern Perl</a>
+A guide on writing clean and idiomatic Perl code. Very good for teaching the philosophy and fundamentals of Perl. Comprehensive and thorough.</li>
+<li>
+<a href="http://www.perl.org/books/impatient-perl/">Impatient Perl</a>
+An accelerated guide for impatient people or people with prior programming experience.</li>
+<li>
+<a href="http://qntm.org/perl">Learn Perl in about 2 hours 30 minutes</a>
+Another accelerated guide for the impatient. Geared towards people who have prior experience in another programming language.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#perl">More free books</a></li>
+<li>Perl.org also hosts a <a href="http://www.perl.org/books/library.html">list of recommended books</a>, many of which are available online for free.</li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/Learning-Perl-Randal-L-Schwartz/dp/1449303587">Learning Perl</a>
+An introductory text on Perl. Teaches on focusing syntax/the details of Perl, and not so much on how to program. Pragmatic and practical.</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://perl.plover.com/qotw/">Perl Quiz of the Week</a>
+A mailing list which sends out a new quiz/prompt once a week. Archives of past prompts are also available.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="php" class="anchor" href="#php" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PHP</h3>
+
+<p>Note: while PHP can be very convenient, quick, and easy to use, it's also a language viewed negatively by many programmers. (See <a href="http://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/">PHP: a fractal of bad design</a>). If you do decide to learn PHP and adopt it as your language of choice, just be aware of the fact that people will probably make fun of you at one point or another.</p>
+
+<p>Also, it's important to first learn <a href="#html-css-and-javascript">HTML and CSS</a> before attempting to learn PHP. PHP is a language which attempts to "extend" and work with HTML, so may not fully make sense if you try and learn it before picking up basic web development.</p>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>Codecademy's <a href="http://www.codecademy.com/en/tracks/php">PHP track</a>
+</li>
+<li>Team Treehouse's <a href="http://teamtreehouse.com/features/php">PHP course</a> - allows a free 14-day trial, but later requires payment.</li>
+</ul>
+</li>
+<li>Interactive resources:
+
+<ul>
+<li>
+<a href="http://www.learn-php.org/">Learn PHP</a>
+An interactive guide that teaches basic PHP.</li>
+</ul>
+</li>
+<li>Exercises:</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://php.net/manual/en/index.php">PHP Manual</a>
+The official tutorial on PHP. Tends to focus on language features and syntax.</li>
+<li>
+<a href="http://www.tutorialspoint.com/php/">TutorialPoint's PHP Tutorial</a>
+An introduction to PHP. Tends to focus on syntax. May make a good reference.</li>
+<li>
+<a href="http://www.phptherightway.com/">PHP The Right Way</a>
+A comprehensive guide that covers modern best practices in PHP and attempts to address common flaws, misconceptions, and errors that many beginners (and many tutorials) seem to possess. Assumes some prior knowledge of PHP.</li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/PHP-Absolute-Beginners-Jason-Lengstorf/dp/1430268158/ref=dp_ob_title_bk">PHP for Absolute Beginners</a>
+An introductory text on PHP.</li>
+<li>
+<a href="http://www.amazon.com/PHP-Solutions-Dynamic-Design-Made/dp/1430232498/ref=dp_ob_title_bk">PHP Solutions: Dynamic Web Design Made Easy, 2nd edition</a>
+An example-driven introduction to PHP.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="python" class="anchor" href="#python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python</h3>
+
+<p>Note: there are currently two versions of Python that are commonly taught and used -- Python 2, and Python 3. Python 3 is the most recent version, but for a variety of reasons Python 2 still is fairly popular among many developers.</p>
+
+<p>If you're not sure which version to pick, my recommendation would be to pick the resource which looks like the best fit for you, and just use whatever version they're recommending. Luckily, the differences between the two are very minor (at least from the perspective of the beginner), so there's really no difference if you learn using Python 2 vs Python 3.</p>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>edx's <a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-0#.VJw5pv-kAA">Introduction to Computer Science and Programming Using Python</a>
+The companion book can be <a href="http://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-0">found here</a>. The course is designed for beginners, part of a 2-part series, is self-paced, and has an emphasis on computation and data science.
+
+<ul>
+<li>  MIT Open Courseware also offers a gentler "lead-in" course designed for those with no programming background that you can take before taking the above: <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-090-building-programming-experience-a-lead-in-to-6-001-january-iap-2005/">Building Programming Experience: A Lead-In to 6.001</a>.</li>
+</ul>
+</li>
+<li>MIT Open Courseware's <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/">A Gentle Introduction to Programming Using Python</a>
+A gentler version of the above.</li>
+<li>Coursera's <a href="https://www.coursera.org/course/pythonlearn">Programming for Everybody (Python)</a>
+For beginners; requires registration.</li>
+<li>Codecademy's <a href="http://www.codecademy.com/tracks/python">Python track</a>
+For beginners; tends to focus primarily on syntax.</li>
+<li>Udacity's <a href="https://www.udacity.com/course/ud036">Programming Foundations with Python</a>
+Requires some prior programming experience; focuses on object-oriented programming.</li>
+<li>Team Treehouse's <a href="http://teamtreehouse.com/features/python">Python course</a>
+Allows a free 14-day trial, but later requires payment.</li>
+</ul>
+</li>
+<li>Interactive resources:
+
+<ul>
+<li>
+<a href="http://learnpython.org">LearnPython</a>
+An interactive online guide that teaches basic Python.</li>
+<li>
+<a href="http://www.trypython.org/">Try Python</a>
+Another interactive online guide.</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a>
+Part of the "Learn X the Hard Way" series. Despite its name, this is one of the easiest introductions to Python available.</li>
+<li>
+<a href="http://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a>
+A book for complete beginners. It is aimed at office workers, students, administrators, and hobbyists who want to learn how to write useful, practical programs rather than necessarily become software engineers. From the <a href="http://inventwithpython.com/">Invent with Python</a> author.</li>
+<li>
+<a href="https://realpython.com">Real Python</a> Learn by doing! Real Python teaches programming and web development through hands-on, interesting examples that are useful and fun! (this is a paid course)</li>
+<li>How to Think Like a Computer Scientist (<a href="http://www.openbookproject.net/thinkcs/python/english2e/">Python 2 version</a> and <a href="http://www.openbookproject.net/thinkcs/python/english3e/">Python 3 version</a>)
+A comprehensive introductory text on Python.</li>
+<li>
+<a href="http://www.greenteapress.com/thinkpython/">Think Python</a>
+Another comprehensive introductory text on Python.</li>
+<li>The official Python tutorial (for <a href="https://docs.python.org/2/tutorial/">Python 2</a> and <a href="https://docs.python.org/3/tutorial/">Python 3</a>). Moves a little quickly, but is very comprehensive and thorough.</li>
+<li>
+<a href="http://interactivepython.org/runestone/static/pythonds/index.html">Problem Solving with Algorithms and Data Structures</a>
+A fantastic introduction to data structures and algorithms and other traditional
+computer science concepts using Python. While it does briefly cover Python syntax,
+it assumes that you already have some basic prior experience.</li>
+<li>
+<a href="http://www.diveintopython3.net/">Dive into Python 3</a>
+An accelerated introduction to Python. Warning: do NOT use "Dive into Python 2". It's very outdated.</li>
+<li>
+<a href="http://ProgramArcadeGames.com">Program Arcade Games With Python And Pygame</a>
+A fantastic and thorough introduction to Python via making games. For beginners.</li>
+<li>
+<a href="http://inventwithpython.com/">Invent with Python</a>
+Teaches programming through the creation of computer games with Python and Pygame. For beginners.</li>
+<li>
+<a href="https://python-guide.readthedocs.org/en/latest/">The Hitchhiker's Guide to Python</a>
+A comprehensive introduction to the Python ecosystem. Covers how to properly configure and set up a development environment in Python, best practices, writing idiomatic code, what the best 3rd party libraries are for different tasks, and shipping your code. Useful for both beginners and experts (however, the guide does not actually teach Python itself).</li>
+<li>
+<a href="http://resrc.io/list/4/pycrumbs/">pycrumbs</a>
+A huge list of many useful articles, tutorials, and snippits on Python, ranging from basic to advanced.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python">More free books</a></li>
+<li>
+<a href="http://pymotw.com/">PyMOTW</a>
+A tour of the Python standard library through short examples.</li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://importpython.com/books/">Import Python</a>
+A catalog of Python books (some are free)</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://www.pyschools.com/">Pyschools</a>
+Exercises and challenges in Python. Challenges require (free) registration.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="golang" class="anchor" href="#golang" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Golang</h3>
+
+<p>The Go programming language is an open source project to make programmers more productive.</p>
+
+<p>Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.</p>
+
+<p>In addition to the resources available <a href="http://golang.org/doc/#learning">at golang.org</a> there are a range of community-driven initiatives:</p>
+
+<ul>
+<li>Books (online):
+
+<ul>
+<li>
+<a href="http://openmymind.net/The-Little-Go-Book/">The Little Go Book</a> The Little Go Book is a free introduction to Google's Go programming language. It's aimed at developers who might not be quite comfortable with the idea of pointers and static typing. It's longer than the other Little books, but hopefully still captures that little feeling.</li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781/ref=sr_1_2?ie=UTF8&amp;qid=1460415974&amp;sr=8-2&amp;keywords=golang">Go in Action</a>: Go in Action introduces the Go language, guiding you from inquisitive developer to Go guru. The book begins by introducing the unique features and concepts of Go. Then, you'll get hands-on experience writing real-world applications including websites and network servers, as well as techniques to manipulate and convert data at speeds that will make your friends jealous.</li>
+<li>
+<a href="http://www.amazon.com/Way-Go-Thorough-Introduction-Programming-ebook/dp/B0083RVAJW/ref=sr_1_9?ie=UTF8&amp;qid=1460415974&amp;sr=8-9&amp;keywords=golang">The Way to Go: A Thorough Introduction to the Go Programming Language</a>: Pros - Book is very relevant and up-to-date, well-structured (maybe too well-structured at times), covers virtually everything in Go language, has a myriad of useful code examples. Cons - Author is not a native speaker and it shows. At times it is a bit hard to understand his writing - proofreading was definitely needed.</li>
+<li>
+<a href="http://www.amazon.com/Introducing-Go-Reliable-Scalable-Programs/dp/1491941952/ref=sr_1_6?ie=UTF8&amp;qid=1460415974&amp;sr=8-6&amp;keywords=golang">Introducing Go: Build Reliable, Scalable Programs</a>: Perfect for beginners familiar with programming basics, this hands-on guide provides an easy introduction to Go, the general-purpose programming language from Google. Author Caleb Doxsey covers the language’s core features with step-by-step instructions and exercises in each chapter to help you practice what you learn.</li>
+<li>
+<a href="http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?ie=UTF8&amp;qid=1460415974&amp;sr=8-1&amp;keywords=golang">The Go Programming Language</a>: The Go Programming Language is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.</li>
+</ul>
+</li>
+<li>Videos
+
+<ul>
+<li>
+<a href="http://www.goinggo.net/">GoingGo.net</a> - A collection of videos and articles for learning Go.</li>
+<li>
+<a href="http://shop.oreilly.com/category/learning-path/go-fundamentals.do">O'Reilly Go Fundamentals</a> - Video learning path for Go programming.</li>
+<li>
+<a href="https://www.youtube.com/watch?v=CF9S4QZuV30">Learn Go in an Hour</a> Learn the go programming language in one hour.</li>
+<li>
+<a href="https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6">Learning to Program in Go</a> - a multi-part video training class.</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://exercism.io/languages/go">Exercism.io - Go</a> - Online code exercises for Go for practice and mentorship.</li>
+<li>
+<a href="https://www.outlearn.com/search?filter=path&amp;q=golang">Outlearn.com</a> - Jump right into Go with a tour, helpful examples, sample app, and common pitfalls.</li>
+<li>
+<a href="https://github.com/gobridge">The Go Bridge Foundry</a> - A member of the <a href="http://bridgefoundry.org/">Bridge Foundry</a> family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.</li>
+<li>
+<a href="http://www.gofragments.net/">Go Fragments</a> - A collection of annotated Go code examples.</li>
+<li>
+<a href="http://golangtutorials.blogspot.com/2011/05/table-of-contents.html">Golang Tutorials</a> - A free online class.</li>
+<li>
+<a href="http://learnxinyminutes.com/docs/go/">Learn Go in Y minutes</a> is a top-to-bottom walk-through of the language.</li>
+<li>
+<a href="http://gobyexample.com/">Go By Example</a> - Go by Example is a hands-on introduction to Go using annotated example programs. Check out the first example or browse the full list below.</li>
+<li> <a href="http://www.pluralsight.com/tag/golang">Pluralsight Classes for Go</a> - A growing collection of (paid) online classes.</li>
+</ul>
+</li>
+<li>Workshops:
+
+<ul>
+<li>
+<a href="https://www.frameworktraining.co.uk/go-language-free-training-workshop/">Free Go Language Workshop</a> Framework Training is running regular free BYOD workshops in London, UK</li>
+<li>
+<a href="https://github.com/sendwithus/workshop-go">Workshop-Go</a> - Startup Slam Go Workshop - examples and slides.</li>
+</ul>
+</li>
+<li>Learning resources for specific topics:
+
+<ul>
+<li>
+<a href="LearnConcurrency">LearnConcurrency</a> outlines a course of study of Go's concurrency model and patterns.</li>
+<li>
+<a href="LearnErrorHandling">LearnErrorHandling</a> links to resources about error handling in Go.</li>
+<li>
+<a href="LearnTesting">LearnTesting</a> links to resources about testing in Go.</li>
+<li>
+<a href="LearnServerProgramming">LearnServerProgramming</a> links to resources about server programming in Go.</li>
+</ul>
+</li>
+<li>Further reading:
+
+<ul>
+<li><a href="http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html">50 Shades of Go: Traps, Gotchas, Common Mistakes for New Golang Devs</a></li>
+<li>
+<a href="http://www.newspaper.io">Newspaper</a> is a topic based newsfeed for slack. Built on Go</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="ruby" class="anchor" href="#ruby" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ruby</h3>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>Codecademy's <a href="http://www.codecademy.com/tracks/ruby">Ruby track</a>
+For beginners. Tends to focus on syntax.</li>
+<li>Team Treehouse's <a href="http://teamtreehouse.com/features/ruby">Ruby course</a>
+Allows a free 14-day trial, but later requires payment.</li>
+</ul>
+</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://rubymonk.com/">RubyMonk</a>
+A collection of interactive tutorials to help you learn basic and advanced Ruby.</li>
+<li>
+<a href="http://tryruby.org">TryRuby</a>
+An interactive online guide that teaches you basic Ruby step-by-step.</li>
+<li>
+<a href="http://rubykoans.com/">Learn Ruby</a>
+A downloadable set of interactive tutorials.</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://learncodethehardway.org/ruby/">Learn Ruby The Hard Way</a>
+Part of the "Learn X The Hard Way" series. Despite its name, this is one of the easiest introductions to Ruby available.</li>
+<li>
+<a href="http://mislav.uniqpath.com/poignant-guide/">Why's (Poignant) Guide to Ruby</a>
+A little quirky, but still very good.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#ruby">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/The-Well-Grounded-Rubyist-David-Black/dp/1933988657">The Well-Grounded Rubyist</a>
+A comprehensive and thorough introduction to Ruby. For beginners.</li>
+<li>
+<a href="http://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional-Series/dp/0321584104">Eloquent Ruby</a>
+A guide on how to write Ruby idiomatically and cleanly. This book assumes that you already know Ruby or some other programming language.</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://rubyquiz.com/">Ruby Quiz</a>
+A series of exercises on writing programs in Ruby. New exercises are no longer being written, but the existing exercises are still very good.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="scratch" class="anchor" href="#scratch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scratch</h3>
+
+<p>Scratch is a language wherein you create programs by dragging together and connecting "blocks". Unlike other programming languages, Scratch is very visual, making it a very good first programming language, especially for children and younger teens.</p>
+
+<p>Because not many people may be familiar with Scratch, this section will contain resources that are helpful both for <em>learning</em> Scratch, and <em>teaching</em> Scratch.</p>
+
+<p>There are two</p>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>edX's <a href="https://www.edx.org/course/programming-scratch-harveymuddx-cs002x#.VJw5t_-kAA">Programming in Scratch</a> - for beginners.</li>
+<li>edX's <a href="https://www.edx.org/course/middle-years-computer-science-harveymuddx-cs001x#.VJw5rP-kAA">Middle-Years Computer Science</a> - a course designed to help teachers design an engaging computer science curriculum for middle-schoolers using Scratch.</li>
+</ul>
+</li>
+<li>Interactive tutorials: N/A</li>
+<li>Video tutorials:
+
+<ul>
+<li>
+<a href="http://scratch.mit.edu/help/videos/">A Collection of Scratch Videos</a> from Scratch's website
+A collection of video tutorials on Scratch for absolute beginners. Very comprehensive.</li>
+</ul>
+</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://inventwithscratch.com/about/">Invent with Scratch!</a>
+An introductory text on Scratch. For beginners.</li>
+<li>
+<a href="http://cs.harvard.edu/malan/scratch/index.php">Scratch for Budding Computer Scientists</a>
+A short tutorial that takes a more formalized approach to teaching Scratch. Best suited for those with some prior experience.</li>
+<li>
+<a href="http://stwww.weizmann.ac.il/g-cs/scratch/scratch_en.html">Computer Science Concepts in Scratch</a>
+A thorough introduction to Scratch. For beginners.</li>
+<li>
+<a href="http://wiki.scratch.mit.edu/wiki/Advanced_Topics_%28forum%29">Scratch Advanced Topics</a>
+A collection of resources and guides on advanced usage of Scratch. Not for beginners.</li>
+<li>Reference guides: for <a href="http://download.scratch.mit.edu/ScratchReferenceGuide14.pdf">Scratch</a> and <a href="http://snap.berkeley.edu/SnapManual.pdf">Snap/Build Your Own Blocks</a> (a variant of Scratch)
+Contains comprehensive descriptions of all language features. The Scratch reference will be useful for all levels, and the Snap reference will be particularly useful for those who are already proficient at programming in another language.</li>
+<li>
+<a href="http://scratch.mit.edu/educators/">Scratch for Educators</a>
+Scratch's official portal and collection of resources for teaching using Scratch.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#scratch">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="https://scratch.mit.edu/info/cards">Scratch Cards</a> - Scratch cards provide a quick way to learn new Scratch code.</li>
+<li>
+<a href="http://www.amazon.com/Learn-Program-Scratch-Introduction-Programming/dp/1593275439/ref=sr_1_1?ie=UTF8&amp;qid=1460418004&amp;sr=8-1&amp;keywords=scratch+programming">Learn to Program with Scratch: A Visual Introduction to Programming with Games, Art, Science, and Math</a> - In Learn to Program with Scratch, author Majed Marji uses Scratch to explain the concepts essential to solving real-world programming problems. The labeled, color-coded blocks plainly show each logical step in a given script, and with a single click, you can even test any part of your script to check your logic.</li>
+<li>
+<a href="http://www.amazon.com/Scratch-Programming-Adventure-Covers-Version/dp/1593275315/ref=sr_1_5?ie=UTF8&amp;qid=1460418004&amp;sr=8-5&amp;keywords=scratch+programming">Super Scratch Programming Adventure! (Covers Version 2): Learn to Program by Making Cool Games</a> - In Super Scratch Programming Adventure!, kids learn programming fundamentals as they make their very own playable video games. They'll create projects inspired by classic arcade games that can be programmed (and played!) in an afternoon. Patient, step-by-step explanations of the code and fun programming challenges will have kids creating their own games in no time.</li>
+</ul>
+</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="https://scratch.mit.edu/studios/532108/">SHS Programming 1 Exercises</a> - LTPWS Studio of Exercises</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="other-topics" class="anchor" href="#other-topics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other topics</h2>
+
+<p>TODO: EXPAND AND POLISH</p>
+
+<h3>
+<a id="developing-on-specific-platforms" class="anchor" href="#developing-on-specific-platforms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developing on specific platforms</h3>
+
+<p>Please see our <a href="http://www.reddit.com/r/learnprogramming/wiki/faq#wiki_how_do_i_get_starting_making_mobile_apps.2Fandroid_apps.2Fios_apps.2Fwindows_phone_apps.3F">FAQ</a> for more information.</p>
+
+<h4>
+<a id="android" class="anchor" href="#android" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Android</h4>
+
+<ul>
+<li><a href="http://www.reddit.com/r/learnprogramming/comments/1dy9wj/im_a_cpa_who_learned_java_android_and_published/">Spreadsheet of Android resources</a></li>
+<li><a href="http://www.reddit.com/r/learnprogramming/comments/22xlu9/you_want_to_how_to_write_apps_for_android/">List of Android learning resources</a></li>
+<li>
+<a href="https://developers.google.com/university/">Google Code University</a> - also contains tutorials on other Google technologies.</li>
+<li>
+<a href="https://www.udacity.com/course/ud853">Developing Android Apps</a> - via Udacity. Assumes prior programming experience.</li>
+<li>Team Treehouse's <a href="http://teamtreehouse.com/features/android">Android course</a> - allows a free 14-day trial, but later requires payment.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android">More free books</a></li>
+</ul>
+
+<h4>
+<a id="mac-and-ios" class="anchor" href="#mac-and-ios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mac and iOS</h4>
+
+<ul>
+<li><a href="http://www.reddit.com/r/learnprogramming/comments/22w8sk/you_want_to_know_where_to_start_for_writing_apps/">List of iOS learning resources</a></li>
+<li><a href="http://www.reddit.com/r/learnprogramming/comments/22zkce/want_to_learn_ios_development_best_video/">List of iOS Video Tutorials</a></li>
+<li>Apple's <a href="https://developer.apple.com/library/ios/navigation/">iOS Developer Library</a>
+</li>
+<li>Apple's <a href="https://developer.apple.com/library/mac/navigation/">Mac Developer Library</a>
+</li>
+<li>
+<a href="https://www.udacity.com/course/ud585">Intro to iOS App Development with Swift</a> - via Udacity. Assumes prior programming experience.</li>
+<li>Team Treehouse's <a href="http://teamtreehouse.com/features/ios">iOS course</a> - allows a free 14-day trial, but later requires payment.</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#ios">More free books</a></li>
+</ul>
+
+<h4>
+<a id="windows-and-windows-phones" class="anchor" href="#windows-and-windows-phones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows and Windows phones</h4>
+
+<ul>
+<li>Microsoft's <a href="http://msdn.microsoft.com/en-us/vstudio/cc136611">Developer Guides</a>
+</li>
+<li>Microsoft's <a href="http://create.msdn.com/en-US/education/catalog/">App Hub</a> - resources for mobile and XNA game development.</li>
+<li>More free books:
+
+<ul>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#net-framework">.NET</a></li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#windows-8">Windows 8 and Windows Phone</a></li>
+</ul>
+</li>
+</ul>
+
+<p>TODO: Expand? Don't want to duplicate too much existing content.</p>
+
+<h3>
+<a id="data-structures-and-algorithms" class="anchor" href="#data-structures-and-algorithms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data structures and algorithms</h3>
+
+<p>Unless otherwise noted, all of the resources in this category assume prior programming experience.</p>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>Udacity's <a href="https://www.udacity.com/course/cs215">Intro to Algorithms</a> - assumes  proficiency in math up to the Algebra 2 level.</li>
+<li>Coursera's <a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part 1</a> - lectures are archived. Assumes some familarity with proofs.</li>
+<li>Open Culture has several good video playlists (mostly on YouTube)
+
+<ul>
+<li>
+<a href="https://www.youtube.com/playlist?list=PL6EF0274BD849A7D5">Algorithm Design and Analysis</a> - hosted by UCDavis (University of California, Davis)</li>
+<li>
+<a href="https://www.youtube.com/playlist?list=PL-XXv-cvA_iDXrTvCvDgIkeCWeSIDr4Yh">Computer Science 61B (Data structures)</a> - hosted by UCBerkeley (University of California, Berkeley).</li>
+<li>
+<a href="https://www.youtube.com/course?feature=edu&amp;list=ECE621E25B3BF8B9D1&amp;category=University%2FScience">CS2: Data Structures and Algorithms</a> - Hosted by the University of New South Wales</li>
+</ul>
+</li>
+<li>MIT Open Courseware's <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Introduction to Algorithms</a> and <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/">Design and Analysis of Algorithms</a>
+</li>
+<li>Khan Academy's <a href="https://www.khanacademy.org/computing/computer-science/algorithms">Algorithms</a>
+</li>
+</ul>
+</li>
+<li>Interactive tutorials: N/A</li>
+<li>Exercises:
+
+<ul>
+<li>
+<a href="http://codingbat.com/">Codingbat</a>
+Contains Java and Python exercises. For beginners and intermediate-level programmers.</li>
+<li>
+<a href="http://www.codeabbey.com/">CodeAbbey</a>
+Similar to Codingbat.</li>
+<li>
+<a href="https://www.hackerrank.com/">HackerRank</a>
+Contains a large collection of exercises, from basic up to the competitive
+level. Good for both beginners and advanced programmers. Also holds their own
+online competition.</li>
+<li>
+<a href="http://www.topcoder.com/">TopCoder</a>
+Similar to HackerRank.</li>
+<li>
+<a href="http://uva.onlinejudge.org/">UVa Online Judge</a>
+A collection of programming problems and solutions from multiple programming
+competitions.</li>
+<li>
+<a href="https://projecteuler.net/">Project Euler</a>
+A collection of programming exercises. The exercises are more math-oriented,
+and are not always CS-oriented.</li>
+</ul>
+</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://interactivepython.org/runestone/static/pythonds/index.html">Problem Solving with Algorithms and Data Structures</a>
+A very thorough introduction to data structures and algorithms. Although it uses
+Python, the main concepts taught should be applicable to every language. Starts with
+a quick overview of Python for those unfamiliar to the language.</li>
+<li>
+<a href="http://algs4.cs.princeton.edu/home/">Algorithms by Robert Sedgewick</a> which is in Java and accompanies <a href="https://www.coursera.org/course/algs4partI">these lectures</a> on Coursera.</li>
+<li>
+<a href="http://www3.cs.stonybrook.edu/%7Ealgorith/">The Stony Brook Algorithm Repository</a> - a comprehensive reference of many different data structures and algorithms.</li>
+<li>
+<a href="http://bigocheatsheet.com/">The Big-O Cheat Sheet</a> - a cheat sheet containing links and condensed information about the top most commonly-used/commonly-taught data structures and algorithms.</li>
+</ul>
+</li>
+<li>Books (paper):
+
+<ul>
+<li>
+<a href="http://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844">Introduction to Algorithms</a> - the canonical guide to algorithms and is very comprehensive. The book is language agnostic, moves at an accelerated pace, and is accompanied by lectures <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm">here</a>.</li>
+<li>
+<a href="http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600">The Algorithm Design Manual</a> - the first half of the book emphasizes the design and analysis of algorithms, and the second half is a catalog of the 75 most important algorithmic problems for reference.</li>
+<li>
+<a href="http://stackoverflow.com/q/1697572/646543">How can I rebuild my base of algorithms/data structures knowledge?</a> - contains links to various recommended books and suggestions for improvement.</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="tools" class="anchor" href="#tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tools</h2>
+
+<h3>
+<a id="version-control" class="anchor" href="#version-control" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Version control</h3>
+
+<h4>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git</h4>
+
+<ul>
+<li>Online courses:
+
+<ul>
+<li>
+<a href="https://www.udacity.com/course/ud775">How to Use Git and GitHub</a> - via Udacity.</li>
+</ul>
+</li>
+<li>Interactive tutorials:
+
+<ul>
+<li>
+<a href="http://pcottle.github.io/learnGitBranching/">Learn Git Branching</a> - a very visual interactive tutorial starting from the absolute basics with a high emphasis on understanding the internals/what each git command really means.</li>
+<li>
+<a href="https://try.github.io/levels/1/challenges/1">Try Git</a> - an interactive tutorial that teaches basic Git.</li>
+</ul>
+</li>
+<li>Exercises: N/A</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://www.git-tower.com/learn/ebook/command-line/introduction">Learn Version Control with Git</a> - an introduction to Git for the absolute beginner (via git-tower).</li>
+<li>Git has an <a href="http://git-scm.com/documentation">official reference and book</a>
+</li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#git">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper): N/A</li>
+</ul>
+
+<h4>
+<a id="mercurial" class="anchor" href="#mercurial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mercurial</h4>
+
+<ul>
+<li>Online courses: N/A</li>
+<li>Interactive tutorials: N/A</li>
+<li>Exercises: N/A</li>
+<li>Video tutorials: N/A</li>
+<li>Books and tutorials (online):
+
+<ul>
+<li>
+<a href="http://hginit.com/01.html">HgInit</a> - a basic introduction to Mercurial.</li>
+<li><a href="http://hgbook.red-bean.com/">Mercurial: The Definitive Guide</a></li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#mercurial">More free books</a></li>
+</ul>
+</li>
+<li>Books (paper): N/A</li>
+</ul>
+
+<p>TODO: Expand, add info on Subversion</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/ashleymcnamara/learn_to_code">Learn to code</a> is maintained by <a href="https://github.com/ashleymcnamara">ashleymcnamara</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-    
+    </section>
 
+  
   </body>
 </html>
