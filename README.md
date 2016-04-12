@@ -928,7 +928,6 @@ Unless otherwise noted, all of the resources in this category assume prior progr
     - [Introduction to Algorithms](http://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844) - the canonical guide to algorithms and is very comprehensive. The book is language agnostic, moves at an accelerated pace, and is accompanied by lectures [here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm).
     - [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steve-Skiena/dp/0387948600) - the first half of the book emphasizes the design and analysis of algorithms, and the second half is a catalog of the 75 most important algorithmic problems for reference.
     - [Machine Learning for Hackers](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714) - If you’re an experienced programmer interested in crunching data, this book will get you started with machine learning.
-    -
     - [How can I rebuild my base of algorithms/data structures knowledge?](http://stackoverflow.com/q/1697572/646543) - contains links to various recommended books and suggestions for improvement.
     - [Data Driven:
 Creating a Data Culture](http://www.oreilly.com/data/free/data-driven.csp) - Succeeding with data isn’t just a matter of putting Hadoop in your machine room, or hiring some physicists with crazy math skills.
