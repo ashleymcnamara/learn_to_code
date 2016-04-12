@@ -2,7 +2,7 @@
 **Curated list of resources for budding developers**
 
 ## Table of contents
-
+[**SEE GITHUB PAGE VIEW**](http://ashleymcnamara.github.io/learn_to_code/)
 - [Introduction](#introduction)
     - [Goals](#Goals)
     - [Where do I start?](#where-do-i-start)
@@ -72,7 +72,7 @@ This page is subdivided into three parts -- first, a _"General resources"_ secti
 
 In general, most resources available will fall between two categories -- online courses, and books + tutorials. Online courses tend to teach using video lectures, try and be more interactive, and try and emulate the structure of a course similar to ones you might take in college. In contrast, books and tutorials teach via written text and allow you to set your own pace.
 
-### "Where should I start?"
+### Where should I start?
 
 Whether you prefer learning by watching a video or reading text is really a matter of personal preference. _I_ personally prefer visual, but your learning style might be completely different. You may need to explore and browse several different resources before you discover how you best learn.
 
@@ -230,6 +230,7 @@ Note: Similar to C, C++ can be a difficult-to-teach language. Although the onlin
   [cpp-so-definitive]: http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
 
 ### C-Sharp
+ (pronounced as see sharp) is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.
 
 - **Online courses:**
     - Microsoft Virtual Academy has a few free courses:
@@ -276,7 +277,7 @@ Note: Similar to C, C++ can be a difficult-to-teach language. Although the onlin
   [csharp-more-effective]: http://www.amazon.com/More-Effective-Specific-Ways-Improve/dp/0321485890
 
 ### Haskell
-
+Haskell is a [polymorphically](https://wiki.haskell.org/Polymorphism) [statically typed](https://wiki.haskell.org/Typing), [lazy, purely functional](https://wiki.haskell.org/Lazy_evaluation) language, quite different from most other programming languages. The language is named for [Haskell Brooks Curry](https://wiki.haskell.org/Haskell_Brooks_Curry), whose work in mathematical logic serves as a foundation for functional languages. Haskell is based on the [lambda calculus](https://wiki.haskell.org/Lambda_calculus), hence the lambda they use as a logo.
 - **Online courses:**
     - edX's [Introduction to Functional Programming][haskell-intro-func]
       Assumes familiarity with a non-functional programming language (Java, Python, C#, C++, etc).
@@ -453,6 +454,7 @@ Also note that HTML and CSS are examples of "markup languages", not "programming
   [lisp-course]: http://learnlispthehardway.org/
 
 ### Java
+Java is a programming language designed to build secure, powerful applications that run across multiple operating systems, including Linux, Mac OS X, and Windows. The Java language is known to be flexible, scalable, and maintainable.
 
 - **Online courses:**
     - Udacity's [Intro to Java Programming][java-uda-intro]
@@ -518,6 +520,29 @@ Also note that HTML and CSS are examples of "markup languages", not "programming
   [java-practice-it]: http://practiceit.cs.washington.edu/
 
 ### Perl
+Businesses talk about Perl 5 when talking Perl, but on a far-far land, beyond deep-thinking island, the design-by-committee tribe is still cooking a hefty slab of Perl 6 (and it's almost ready, with an engine written in Haskell and powered by the tears of the gods)
+
+**Ok, that said, what is Perl 5 used for, today?**
+
+- **legacy web systems / intrawebs** - some just won't die
+
+- **data mining / statistical analysis** - the perl regex engine, even if slightly outdated, (PCRE, a spinned off library, tops it up in any possibile way and it's the default PHP engine) is still good for simple analysis
+
+- **UNIX system administration **- Perl shall always be installed on UNIX.
+You can count on it being readily available even on Mac OS X.
+
+- **Network Prototyping **- many core network experts learned Perl when it was all the rage; and they still do their proofs-of-concept with it.
+
+- **Security** - many security experts, too, need fast prototyping. (and fast automated fixes) Perl can, and does, cover for that.
+
+The extensive CPAN collection is very handy, when dealing with prototypes.
+(Batteries may not be included, but they're still right there, on the shelf)
+
+**Remember drawbacks, though:**
+
+- Object support in Perl sucks hard, you bless references and do unholy stuff in the name of objects, then wonder why you took all the trouble in the first place.
+- Reading other people's Perl is more than a craft, it's science, and a painful one, too.
+- Perl is nifty, it makes you think nifty, it makes you feel nifty, you become a programming rockstar. Now, think about getting up, and going to work in a office full of rockstars: it's a "boat that rocks" hard. Expect wild fluctuations.
 
 - **Online courses:** N/A
 - **Interactive tutorials:** N/A
@@ -723,6 +748,8 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   - [Newspaper](http://www.newspaper.io) is a topic based newsfeed for slack. Built on Go
 
 ### Ruby
+
+Note: Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. According to its creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp.
 
 - **Online courses:**
     - Codecademy's [Ruby track][ruby-codecademy]
