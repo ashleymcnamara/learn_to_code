@@ -27,7 +27,7 @@
     - [Ruby](#ruby)
     - [Scratch](#scratch)
 - [Data](#data)
-    - [Neo4j & Graph Databases](#neo4j)
+    - [Neo4j & Graph Databases](#neo4j-&-graph-databases)
 - [Other topics](#other-topics)
     - [Developing on specific platforms](#developing-on-specific-platforms)
         - [Android](#android)
