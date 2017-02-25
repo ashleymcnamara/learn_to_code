@@ -28,6 +28,7 @@
     - [Scratch](#scratch)
 - [Data](#data)
     - [Neo4j & Graph Databases](#neo4j-and-graph-databases)
+    - [MongoDB](mongodb-university)
 - [Other topics](#other-topics)
     - [Developing on specific platforms](#developing-on-specific-platforms)
         - [Android](#android)
@@ -868,7 +869,28 @@ Neo4j is widely used for:
 [GraphGist]: http://message.neotechnology.com/R00NCefOuf003050GuN0A60
 [Neo4j]: https://neo4j.com/
 
+### MongoDB 
 
+[MongoDB](https://www.mongodb.com/) is an open-source [NoSQL database](https://en.wikipedia.org/wiki/NoSQL) engine built in C++.
+
+It's a document-store database which means it stores data as a "document" inside a collection, with multiple collections inside a database. Multiple databases can exist for each server. The document data is stored as [BSON](https://en.wikipedia.org/wiki/BSON) which is [JSON](http://www.json.org/) (JavaScript Object Notation) in a binary format for performance. The data is [schema-less](https://www.google.com/search?q=schema-less&oq=schema-less&aqs=chrome..69i57j0l5.446j0j4&sourceid=chrome&ie=UTF-8) which means each document can have as many keys and values as you want with no restriction on the type of data.
+
+It's easy to think of documents in collections like rows in a relational database table, except that these documents can have any arbitrary amount of properties (like columns for rows) and they can be different for each document and include lots of nesting like arrays of more properties. This is very powerful way to store complex data and matches up well to the object-oriented nature of most programming languages.
+
+MongoDB runs on both Windows and Linux servers and has lots of documentation and years of production usage now so it's considered a stable and useful database, although there are continuing issues with durability and an overly-complicated replication setup to keep in mind.
+
+- **Online courses:**
+    - [MongoDB University][mongodb-university]- Paid course but it comes with a certification
+
+- **Video Tutorials:**   
+    - [MongoDB Tutorial For Beginners | MongoDB Training][mongo-for-beginners]
+    - 
+ - **Books and tutorials (online):** 
+    - [The Littel MongoDB Book][the-little-mongodb-book]
+
+[mongodb-university](https://university.mongodb.com/)
+[mongo-for-beginners](https://www.youtube.com/watch?v=4ioP11POfZ4)
+[the-little-mongodb-book](http://openmymind.net/mongodb.pdf)
 ---
 
 ## Other topics
