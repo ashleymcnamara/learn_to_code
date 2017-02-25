@@ -27,7 +27,7 @@
     - [Ruby](#ruby)
     - [Scratch](#scratch)
 - [Data](#data)
-    - [Neo4j & Graph Databases](#neo4j-&-graph-databases)
+    - [Neo4j & Graph Databases](#neo4j-and-graph-databases)
 - [Other topics](#other-topics)
     - [Developing on specific platforms](#developing-on-specific-platforms)
         - [Android](#android)
@@ -847,7 +847,7 @@ There are two
 
 ## Data
 
-### Neo4j & Graph Databases
+### Neo4j and Graph Databases
 
 [Neo4j][Neo4j] is an open source NOSQL graph database, implemented in Java. It saves structured data in graphs rather than in tables. Graph databases simplify and speed up access to data that is complex and contains many connections. They use graph structures with nodes, edges, and properties to store and access connected information, and can traverse parts of the data without touching the whole graph.
 
