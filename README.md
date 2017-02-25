@@ -25,8 +25,9 @@
     - [Python](#python)
     - [Golang](#golang)
     - [Ruby](#ruby)
-    - [Neo4j & Graph Databases](#neo4j-and-graph-databases)
     - [Scratch](#scratch)
+- [Data](#data)
+    - [Neo4j & Graph Databases](#neo4j)
 - [Other topics](#other-topics)
     - [Developing on specific platforms](#developing-on-specific-platforms)
         - [Android](#android)
@@ -796,26 +797,6 @@ Note: Ruby is a dynamic, reflective, object-oriented, general-purpose programmin
 
   [ruby-quiz]: http://rubyquiz.com/
 
-### Neo4j & Graph Databases
-
-[Neo4j][Neo4j] is an open source NOSQL graph database, implemented in Java. It saves structured data in graphs rather than in tables. Graph databases simplify and speed up access to data that is complex and contains many connections. They use graph structures with nodes, edges, and properties to store and access connected information, and can traverse parts of the data without touching the whole graph.
-
-Neo4j is widely used for:
-
-- Highly connected data
-- Recommendation
-- Path Finding
-- Data First Schema
-- Schema Evolution
-- A* (Least Cost Path)
-
-- **Online courses:**
-    - [Neo4j Training][Neo4j-Training] - free course, completely online
-    - [GraphGist][GraphGist] - geek out on real graphs on finance, sports, politics, or even The Hobbit
-    
-[Neo4j-Training]: http://message.neotechnology.com/O0005CuN03006GNt0z0ffeO
-[GraphGist]: http://message.neotechnology.com/R00NCefOuf003050GuN0A60
-[Neo4j]: https://neo4j.com/
 
 ### Scratch
 
@@ -863,6 +844,30 @@ There are two
   [scratch-snap-reference]: http://snap.berkeley.edu/SnapManual.pdf
   [scratch-educators]: http://scratch.mit.edu/educators/
   [scratch-more]: https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#scratch
+
+## Data
+
+### Neo4j & Graph Databases
+
+[Neo4j][Neo4j] is an open source NOSQL graph database, implemented in Java. It saves structured data in graphs rather than in tables. Graph databases simplify and speed up access to data that is complex and contains many connections. They use graph structures with nodes, edges, and properties to store and access connected information, and can traverse parts of the data without touching the whole graph.
+
+Neo4j is widely used for:
+
+- Highly connected data
+- Recommendation
+- Path Finding
+- Data First Schema
+- Schema Evolution
+- A* (Least Cost Path)
+
+- **Online courses:**
+    - [Neo4j Training][Neo4j-Training] - free course, completely online
+    - [GraphGist][GraphGist] - geek out on real graphs on finance, sports, politics, or even The Hobbit
+    
+[Neo4j-Training]: http://message.neotechnology.com/O0005CuN03006GNt0z0ffeO
+[GraphGist]: http://message.neotechnology.com/R00NCefOuf003050GuN0A60
+[Neo4j]: https://neo4j.com/
+
 
 ---
 
