@@ -884,8 +884,8 @@ MongoDB runs on both Windows and Linux servers and has lots of documentation and
 
 - **Video Tutorials:**
     - [MongoDB Tutorial For Beginners | MongoDB Training][mongo-for-beginners]
-    
- - **Books and tutorials (online):**
+
+- **Books and tutorials (online):**
     - [The Littel MongoDB Book][the-little-mongodb-book]
 
 [mongodb-university]: https://university.mongodb.com/
