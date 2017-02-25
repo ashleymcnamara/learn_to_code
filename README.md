@@ -25,7 +25,7 @@
     - [Python](#python)
     - [Golang](#golang)
     - [Ruby](#ruby)
-    - [Neo4j & Graph Databases](#Neo4j & Graph Databases)
+    - [Neo4j & Graph Databases](#neo4j-and-graph-databases)
     - [Scratch](#scratch)
 - [Other topics](#other-topics)
     - [Developing on specific platforms](#developing-on-specific-platforms)
