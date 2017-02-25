@@ -880,17 +880,18 @@ It's easy to think of documents in collections like rows in a relational databas
 MongoDB runs on both Windows and Linux servers and has lots of documentation and years of production usage now so it's considered a stable and useful database, although there are continuing issues with durability and an overly-complicated replication setup to keep in mind.
 
 - **Online courses:**
-    - [MongoDB University][mongodb-university]- Paid course but it comes with a certification
+    - [MongoDB University][mongodb-university] - Paid course but it comes with a certification 
 
-- **Video Tutorials:**   
+- **Video Tutorials:**
     - [MongoDB Tutorial For Beginners | MongoDB Training][mongo-for-beginners]
     
- - **Books and tutorials (online):** 
+ - **Books and tutorials (online):**
     - [The Littel MongoDB Book][the-little-mongodb-book]
 
 [mongodb-university]: https://university.mongodb.com/
 [mongo-for-beginners]: https://www.youtube.com/watch?v=4ioP11POfZ4
 [the-little-mongodb-book]: http://openmymind.net/mongodb.pdf
+
 ---
 
 ## Other topics
