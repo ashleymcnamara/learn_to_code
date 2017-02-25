@@ -58,6 +58,7 @@ If you know what you want to learn about, great! Jump to that section, start bro
 
 If you're not sure where to start and which language to learn, some good beginner languages are:
 
+- [Golang](#golang) (Go is an attempt to combine the ease of programming of an interpreted, dynamically typed language, with the efficiency and safety of a statically typed, compiled language.)
 - [Python](#python) (general-purpose; scientific and mathematical computing)
 - [Java](#java) (general-purpose; Android development)
 - [HTML/CSS/JavaScript](#html-css-and-javascript) (websites and webapps)
