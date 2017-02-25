@@ -25,7 +25,7 @@
     - [Python](#python)
     - [Golang](#golang)
     - [Ruby](#ruby)
-    - [Neo4j and Graph Databases](#Neo4j and Graph Databases)
+    - [Neo4j and Graph Databases](#Neo4j & Graph Databases)
     - [Scratch](#scratch)
 - [Other topics](#other-topics)
     - [Developing on specific platforms](#developing-on-specific-platforms)
@@ -798,7 +798,7 @@ Note: Ruby is a dynamic, reflective, object-oriented, general-purpose programmin
 
 ### Neo4j & Graph Databases
 
-[Neo4j]:https://neo4j.com/graphgists/?mkt_tok=eyJpIjoiTnpGbU5UYzVNakk1WkdJMyIsInQiOiJ2eGoyVlJMWThIZnZ0YitcL3lZVmxTWGtKamNZaFVqZUd0QUFMWkoycGZNRVBzN3hiNXZxK1ZcL2pQRFhCOXVWWWlSc0hVb2FtVmtKYXM0eDdOVkE4ZkszMFJrYURvelwvNitQc20wbUQ2ZXROcmJXYlZEZ1lxWVNXZk5UMXhSV0szTiJ9 is an open source NOSQL graph database, implemented in Java. It saves structured data in graphs rather than in tables. Graph databases simplify and speed up access to data that is complex and contains many connections. They use graph structures with nodes, edges, and properties to store and access connected information, and can traverse parts of the data without touching the whole graph.
+[Neo4j][Neo4j] is an open source NOSQL graph database, implemented in Java. It saves structured data in graphs rather than in tables. Graph databases simplify and speed up access to data that is complex and contains many connections. They use graph structures with nodes, edges, and properties to store and access connected information, and can traverse parts of the data without touching the whole graph.
 
 Neo4j is widely used for:
 
@@ -810,8 +810,12 @@ Neo4j is widely used for:
 - A* (Least Cost Path)
 
 - **Online courses:**
-[Neo4j Training - free course, completely online]: http://message.neotechnology.com/O0005CuN03006GNt0z0ffeO
-[GraphGist - geek out on real graphs on finance, sports, politics, or even The Hobbit]: http://message.neotechnology.com/R00NCefOuf003050GuN0A60
+    - [Neo4j Training][Neo4j-Training] - free course, completely online
+    - [GraphGist][GraphGist] - geek out on real graphs on finance, sports, politics, or even The Hobbit
+    
+[Neo4j-Training]: http://message.neotechnology.com/O0005CuN03006GNt0z0ffeO
+[GraphGist]: http://message.neotechnology.com/R00NCefOuf003050GuN0A60
+[Neo4j]: https://neo4j.com/
 
 ### Scratch
 
