@@ -123,7 +123,9 @@ Online courses are an increasingly popular way for universities and professional
 - **[MIT OpenCourseWare](http://ocw.mit.edu/index.htm)** - static course materials taught at MIT. Unless otherwise noted, most content from this website tends to be very rigorous and fast-paced.
 - **[Khan Academy](https://www.khanacademy.org/)** - contains a few courses on programming and computer science; does contain many more courses on all kinds of topics (especially math).
 - **[Stanford Engineering Everywhere](http://see.stanford.edu/see/courses.aspx)** - static course materials taught at Stanford.
-
+- **[Learn Code](https://www.youtube.com/learncodeacademy/)** - offers free online courses hosted on YouTube focusing primarily on greater JavaScript ecosystem. Covers everything from basic JavaScript, front end Web Apps, NodeJS and some of the more popular frameworks. Also covers other topics such as basic Git usage, and SSH. 
+- **[Do What You Love (DWYL)](https://github.com/dwyl)** - over 150 tutorials in the form of Github repositories, covering languages such as JavaScript, HTML5, Elixir and Elm; platforms like AWS, Digital Ocean, and Azure; other tools like CodeShip and Github; and also covering basics on architecture, security, and test driven design  
+ 
 The following websites also contain a wide variety of tutorials for many different topics, but require payment and registration before you can access their courses.
 
 - **[Team Treehouse](http://teamtreehouse.com/)** - focuses on web and iOS development.
@@ -359,16 +361,24 @@ Also note that HTML and CSS are examples of "markup languages", not "programming
       A guide which gives a thorough and detailed overview of JavaScript.
     - [JavaScript Frameworks Resources and Tutorials][webdev-js-frameworks]
       Currently features Angular.js, Backbone.js, D3.js, Dojo, Ember.js, Express.js, jQuery, Knockout.js, and Meteor.
+    - [JavaScript30][webdev-js-30vanilla]
+      30 Day Vanilla JS Coding Challenge. Build 30 things in 30 days with 30 tutorials
+    - [JavaScript Tutorial][webdev-js-onevideo]
+      Learn JavaScript in one 90 minute Video. 
     - More free books:
         - [HTML and CSS][webdev-more-html-css]
         - [JavaScript][webdev-more-js]
 - **Books (paper):**
     - [JavaScript: The Good Parts][webdev-the-good-parts]
       A short book that covers the core aspects of JavaScript as well as info on writing idiomatic and clean JavaScript.
+    - [JavaScript: The Good Parts Notes][webdev-the-good-parts-notes]
+      Notes on the Douglas Crockford's book. Great if you don't have time to get into the detail of the book. 
 - **Exercises:**
     - [CSS Diner][webdev-css-diner]
       A series of exercises on using CSS selectors effectively.
-
+  
+  [webdev-js-30vanilla]: https://javascript30.com/
+  [webdev-js-onevideo]: https://www.youtube.com/watch?v=fju9ii8YsGs
   [webdev-cc-make-website]: http://www.codecademy.com/skills/make-a-website
   [webdev-cc-make-interactive]: http://www.codecademy.com/skills/make-an-interactive-website
   [webdev-cc-html-css]: http://www.codecademy.com/tracks/web
@@ -393,6 +403,7 @@ Also note that HTML and CSS are examples of "markup languages", not "programming
   [webdev-more-js]: https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#javascript
 
   [webdev-the-good-parts]: http://www.amazon.com/gp/product/0596517742
+  [webdev-the-good-parts-notes]: https://github.com/iteles/Javascript-the-Good-Parts-notes
 
   [webdev-css-diner]: http://flukeout.github.io/
   [general-assembly-make-website]: https://dash.generalassemb.ly/
