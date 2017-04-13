@@ -41,4 +41,4 @@ In addition, if you feel that two existing resources are very similar and that
 having both of them adds no value, or if one resource is too low-quality, please
 open a discussion on the issue tracker.
 
-  [is]:https://github.com/ashleymcnamara/learn_to_code/blob/master/Contributing.md
+  [is]: https://github.com/ashleymcnamara/learn_to_code/issues
