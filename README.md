@@ -286,11 +286,13 @@ Note: Similar to C, C++ can be a difficult-to-teach language. Although the onlin
 Haskell is a [polymorphically](https://wiki.haskell.org/Polymorphism) [statically typed](https://wiki.haskell.org/Typing), [lazy, purely functional](https://wiki.haskell.org/Lazy_evaluation) language, quite different from most other programming languages. The language is named for [Haskell Brooks Curry](https://wiki.haskell.org/Haskell_Brooks_Curry), whose work in mathematical logic serves as a foundation for functional languages. Haskell is based on the [lambda calculus](https://wiki.haskell.org/Lambda_calculus), hence the lambda they use as a logo.
 - **Online courses:**
     - edX's [Introduction to Functional Programming][haskell-intro-func]
-      Assumes familiarity with a non-functional programming language (Java, Python, C#, C++, etc).
+      Assumes familiarity with a non-functional programming language (Java, Python, C#, C++, etc). Take a look at [course content][haskell-course-content].
 - **Interactive tutorials:**
     - [Try Haskell][haskell-try]
       An interactive guide that teaches basic Haskell.
-- **Video tutorials:** N/A
+- **Video tutorials:**
+    - [Parallel and Concurrent Haskell][haskell-by-bartosz]
+      A series of lectures which cover both basics and advanced concepts.
 - **Books and tutorials (online):**
     - [Getting started with Haskell][haskell-getting-started]
       A comprehensive meta-guide that suggests the recommended order for following Haskell tutorials from beginning to advanced.
@@ -306,9 +308,11 @@ Haskell is a [polymorphically](https://wiki.haskell.org/Polymorphism) [staticall
     - [H-99][haskell-h-99]
       A collection of 99 problems designed to increase your proficiency in Haskell.
 
-  [haskell-intro-func]: https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VJw54f-kAA
+  [haskell-intro-func]: https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0
+  [haskell-course-content]: https://github.com/fptudelft/FP101x-Content-2015
 
   [haskell-try]: http://tryhaskell.org/
+  [haskell-by-bartosz]: https://www.youtube.com/playlist?list=PLbgaMIhjbmEm_51-HWv9BQUXcmHYtl4sw
 
   [haskell-getting-started]: http://stackoverflow.com/a/1016986/646543
   [haskell-great-good]: http://learnyouahaskell.com/
