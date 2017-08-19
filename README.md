@@ -733,7 +733,7 @@ Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make
 
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
-- **Orgs**
+- **Orgs:**
   - [GoBridge](https://golangbridge.org/): Building Bridges That Educate & 
 Empower Underrepresented Communities
   - [Women Who Go](http://www.womenwhogo.org/): We are women of the Go community.
@@ -765,7 +765,7 @@ Empower Underrepresented Communities
   - [Go: Building Web Applications](https://www.amazon.com/dp/B01LD8K5C0/ref=cm_sw_su_dp): This course is an invaluable resource to help you understand Go's powerful features to build simple, reliable, secure, and efficient web applications.
 
 
-- **Advanced Go Books**
+- **Advanced Go Books:**
   - [Test-driven development with Go](https://leanpub.com/golang-tdd): A short guide to Test-driven development in golang
   - [Network Programming with Go](https://jan.newmarch.name/go/): An e-book on building network applications using the Google Go programming language. Free to
   - [Mastering Concurrency in Go](http://shop.oreilly.com/product/9781783983483.do): This book will take you through the history of concurrency, how Go utilizes it, how Go differs from other languages, and the features and structures of Go's concurrency core. Each step of the way, the book will present real, usable examples with detailed descriptions of the methodologies used. By the end, you will feel comfortable designing a safe, data-consistent, high-performance concurrent application in Go.
@@ -774,8 +774,7 @@ Empower Underrepresented Communities
   - [The Go Programming Language Phrasebook](http://www.informit.com/store/go-programming-language-phrasebook-9780321817143): Tested, easy-to-adapt code examples illuminate every step of Go development, helping you write highly scalable, concurrent software. You’ll master Go-specific idioms for working with strings, collections, arrays, error handling, goroutines, slices, maps, channels, numbers, dates, times, files, networking, web apps, the runtime, and more.
 
 
-
-- **Videos**
+- **Videos:**
   - [Just for Func](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw)- Series of talk recordings and screencasts mainly about Go and the Google Cloud Platform
   - [Gopher Academy](https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA)- A collection of videos and conference talks for learning Go.
   - [GoingGo.net](http://www.goinggo.net/) - A collection of videos and articles for learning Go.
