@@ -550,18 +550,18 @@ Java is a programming language designed to build secure, powerful applications t
   [java-practice-it]: http://practiceit.cs.washington.edu/
 
 ### Perl
-Businesses talk about Perl 5 when talking Perl, but on a far-far land, beyond deep-thinking island, the design-by-committee tribe is still cooking a hefty slab of Perl 6 (and it's almost ready, with an engine written in Haskell and powered by the tears of the gods)
+Businesses talk about Perl 5 when talking Perl, but there is also its sister language perl6 after a lengthy gestation period it has finally been released at the end of 2015. Perl 6 shares the spirit of perl but has been intensly simplified, normalized and enhanced. Many consider Perl 6 an ideal system for learning to code as it suports a huge range of programming concepts in a single well structured language.
 
 **Ok, that said, what is Perl 5 used for, today?**
 
-- **legacy web systems / intrawebs** - some just won't die
+- **legacy web systems / intrawebs / modern websites**- perl has been around for ages, so it powers some realy old and disgusting cgi scripts, but there is also a new crop of non-blocking super cool perl based webapps <https://mojolicious.org>
 
-- **data mining / statistical analysis** - the perl regex engine, even if slightly outdated, (PCRE, a spinned off library, tops it up in any possibile way and it's the default PHP engine) is still good for simple analysis
+- **data mining / statistical analysis** - the perl regex engine is extremely powerful and fast. In recent perl releases it has gained quite a bag of new tricks.
 
-- **UNIX system administration **- Perl shall always be installed on UNIX.
+- **UNIX system administration** - Perl shall always be installed on UNIX.
 You can count on it being readily available even on Mac OS X.
 
-- **Network Prototyping **- many core network experts learned Perl when it was all the rage; and they still do their proofs-of-concept with it.
+- **Network Prototyping** -  many core network experts learned Perl when it was all the rage; and they still do their proofs-of-concept with it.
 
 - **Security** - many security experts, too, need fast prototyping. (and fast automated fixes) Perl can, and does, cover for that.
 
@@ -570,7 +570,7 @@ The extensive CPAN collection is very handy, when dealing with prototypes.
 
 **Remember drawbacks, though:**
 
-- Object support in Perl sucks hard, you bless references and do unholy stuff in the name of objects, then wonder why you took all the trouble in the first place.
+- Perl is a language that deliberatly places very few restrictions on the programmer. This is both cool and terrible. Cool because good and well organiced programmers can write very beautiful and concise code in perl while bad coders create an unreadable mess that is responsible for the bad reputation perl has in certain circles.
 - Reading other people's Perl is more than a craft, it's science, and a painful one, too.
 - Perl is nifty, it makes you think nifty, it makes you feel nifty, you become a programming rockstar. Now, think about getting up, and going to work in a office full of rockstars: it's a "boat that rocks" hard. Expect wild fluctuations.
 
