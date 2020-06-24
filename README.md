@@ -115,6 +115,8 @@ You can also find a meta _"list of programming resources"_ aggregator here: http
 
 Online courses are an increasingly popular way for universities and professionals to teach programming and computer science in a structured format. As a result, new online courses will pop up all the time, so it's worth checking these resources periodically to see what's new.
 
+
+- **[Blackbird School](https://blackbird.school)** - offers a web-based platform where you can learn to code from scratch. Geared toward a beginner-friendly experience. Focuses on coding fundamentals rather than specific languages or frameworks, uses JavaScript. Offers a 30-day free trial, but users must enter a credit/debit card.
 - **[Codecademy](http://www.codecademy.com/)** - offers free online courses in several different languages. However, Codecademy does have a tendency to teach only basic syntax, so you may need work through more tutorials after finishing Codecademy. Focuses mainly on web development, Ruby, and Python.
 - **[Coursera](https://www.coursera.org/)** - offers free online courses in many different fields from several different well-known universities. New courses are added every quarter, and content from old courses is typically archived. Because many courses appear to be new/may be a one-time thing, this page will not link to courses on Coursera unless it appears to be stable.
 - **[Springboard](https://www.springboard.com/)** - offers several free programming resources and mentored workshops on data science, UX design and more that can teach you Python, R, data science, and SQL with the help of an expert who works professionally. 
