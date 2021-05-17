@@ -117,7 +117,7 @@ Online courses are an increasingly popular way for universities and professional
 
 - **[Codecademy](http://www.codecademy.com/)** - offers free online courses in several different languages. However, Codecademy does have a tendency to teach only basic syntax, so you may need work through more tutorials after finishing Codecademy. Focuses mainly on web development, Ruby, and Python.
 - **[Coursera](https://www.coursera.org/)** - offers free online courses in many different fields from several different well-known universities. New courses are added every quarter, and content from old courses is typically archived. Because many courses appear to be new/may be a one-time thing, this page will not link to courses on Coursera unless it appears to be stable.
-- **[Springboard](https://www.springboard.com/)** - offers several free programming resources and mentored workshops on data science, UX design and more that can teach you Python, R, data science, and SQL with the help of an expert who works professionally. 
+- **[Springboard](https://www.springboard.com/)** - offers several free programming resources and mentored workshops on data science, UX design and more that can teach you Python, R, data science, and SQL with the help of an expert who works professionally.
 - **[Udacity](http://www.udacity.com/)** - offers free computer science courses taught by industry experts. Udacity offers two kinds of courses -- regular courses and nanodegrees. Regular courses are free. Regular courses with one-on-one tutoring/code review requires a monthly fee. Nanodegrees are typically for people with some prior coding experience, and cost more money.
 - **[edX](https://www.edx.org/)** - a joint effort between MIT, Harvard, and Berkeley to provide free online versions of some of their courses.
 - **[OpenCulture](http://www.openculture.com/computer_science_free_courses)** - similar to all of the above. Video lectures are typically available on iTunes or Youtube. Typically does **not** require you to complete assignments, unlike many other online courses.
@@ -128,7 +128,7 @@ Online courses are an increasingly popular way for universities and professional
 - **[Do What You Love (DWYL)](https://github.com/dwyl)** - over 150 tutorials in the form of Github repositories, covering languages such as JavaScript, HTML5, Elixir and Elm; platforms like AWS, Digital Ocean, and Azure; other tools like CodeShip and Github; and also covering basics on architecture, security, and test driven design  
 - **[Object-Oriented Reengineering Patterns](http://scg.unibe.ch/download/oorp/)** - Object-Oriented Reengineering Patterns collects and distills successful techniques in planning a reengineering project, reverse-engineering, problem detection, migration strategies and software redesign.
 - **[Computer Musings (lectures by Donald Knuth)](http://scpd.stanford.edu/free-stuff/engineering-archives/donald-e-knuth-lectures)** - The Stanford Center for Professional Development has digitized more than one hundred tapes of Knuth's musings, lectures, and selected classes and posted them online.
-- **[NASA Software Measurement Handbook](https://www.scribd.com/doc/7181362/NASA-Software-Measurement-Guidebook)** 
+- **[NASA Software Measurement Handbook](https://www.scribd.com/doc/7181362/NASA-Software-Measurement-Guidebook)**
 - **[Introduction to Functional Programming (class lectures and slides)](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/)** - Introduction and Overview Functional and imperative programming: contrast, pros and cons. General structure of the course: how lambda calculus turns out to be a general programming language. Lambda notation: how it clarifies variable binding and provides a general analysis of mathematical notation. Currying. Russell's paradox.
 - **[Guide to the Software Engineering Body of Knowledge](https://www.computer.org/portal/web/swebok)** - The Guide to the Software Engineering Body of Knowledge (SWEBOK Guide) describes generally accepted knowledge about software engineering. Its 15 knowledge areas (KAs) summarize basic concepts and include a reference list pointing to more detailed information.
 - **[Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/2007-04-26/)** - Programming language ‘‘paradigms’’ are a moribund and tedious legacy of a bygone age. Modern language designers pay them no respect, so why do our courses slavishly adhere to them? This paper argues that we should abandon this method of teaching languages, offers an alternative, reconciles an important split in programming language education, and describes a textbook that explores these matters.
@@ -391,6 +391,8 @@ Also note that HTML and CSS are examples of "markup languages", not "programming
 - **Exercises:**
     - [CSS Diner][webdev-css-diner]
       A series of exercises on using CSS selectors effectively.
+    - [DevProjects](https://www.codementor.io/projects/javascript)
+      DevProjects is a community with free and unique real-world projects in multiple coding languages and tech stacks. The website also includes solutions from other developers and discussion board for all users to participate in.
 
   [webdev-js-30vanilla]: https://javascript30.com/
   [webdev-js-onevideo]: https://www.youtube.com/watch?v=fju9ii8YsGs
@@ -524,6 +526,8 @@ Java is a programming language designed to build secure, powerful applications t
 - **Exercises:**
     - [Practice-it][java-practice-it]
       A series of exercises hosted by the University of Washington, starting with basic Java and finishing with data structures and algorithms. Requires (free) registration first before you can view or work on the exercises.
+    - [DevProjects](https://www.codementor.io/projects/java)
+      A commnuty of free and unique Java projects that focus on both mobile and web apps. Created by Codementor, a paid mentorship platform, DevProjects offer projects, solutions from other developers, and discussion board for all users to participate in.
 
   [java-uda-intro]: https://www.udacity.com/course/cs046
   [java-mit-intro-to-prog]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm
@@ -619,6 +623,8 @@ Also, it's important to first learn [HTML and CSS](#html-css-and-javascript) bef
     - [Learn PHP][php-learn]
       An interactive guide that teaches basic PHP.
 - **Exercises:**
+    - [DevProjects](https://www.codementor.io/projects/php)
+      A growing list of PHP real-world projects that is free for all. Solutions and discussions can be found in most projects. Paid help to complete the project is optional through related product, Codementor.
 - **Video tutorials:** N/A
 - **Books and tutorials (online):**
     - [PHP Manual][php-manual]
@@ -704,6 +710,8 @@ If you're not sure which version to pick, my recommendation would be to pick the
 - **Exercises:**
     - [Pyschools][python-pyschools]
       Exercises and challenges in Python. Challenges require (free) registration.
+    - [DevProjects](https://www.codementor.io/projects/python)
+      A list of growing, free Python projects that cater to web development and data analysis.
 
   [python-codecademy]: http://www.codecademy.com/tracks/python
   [python-udacity]: https://www.udacity.com/course/ud036
@@ -745,7 +753,7 @@ Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
 - **Orgs:**
-  - [GoBridge](https://golangbridge.org/): Building Bridges That Educate & 
+  - [GoBridge](https://golangbridge.org/): Building Bridges That Educate &
 Empower Underrepresented Communities
   - [Women Who Go](http://www.womenwhogo.org/): We are women of the Go community.
 
@@ -844,6 +852,8 @@ Note: Ruby is a dynamic, reflective, object-oriented, general-purpose programmin
 - **Exercises:**
     - [Ruby Quiz][ruby-quiz]
       A series of exercises on writing programs in Ruby. New exercises are no longer being written, but the existing exercises are still very good.
+    - [DevProjects](https://www.codementor.io/projects/ruby)
+      A compilation of free and unique Ruby projects for developers of all levels of expertise.
 
   [ruby-codecademy]: http://www.codecademy.com/tracks/ruby
   [ruby-treehouse]: http://teamtreehouse.com/features/ruby
@@ -972,6 +982,7 @@ Please see our [FAQ](http://www.reddit.com/r/learnprogramming/wiki/faq#wiki_how_
 - [Google Code University](https://developers.google.com/university/) - also contains tutorials on other Google technologies.
 - [Developing Android Apps](https://www.udacity.com/course/ud853) - via Udacity. Assumes prior programming experience.
 - Team Treehouse's [Android course](http://teamtreehouse.com/features/android) - allows a free 14-day trial, but later requires payment.
+- [Devprojects](https://www.codementor.io/projects/mobile) - free real-world mobile app projects that can be implemented for both Android and iOS.
 - [More free books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android)
 
 #### Mac and iOS
@@ -982,6 +993,7 @@ Please see our [FAQ](http://www.reddit.com/r/learnprogramming/wiki/faq#wiki_how_
 - Apple's [Mac Developer Library](https://developer.apple.com/library/mac/navigation/)
 - [Intro to iOS App Development with Swift](https://www.udacity.com/course/ud585) - via Udacity. Assumes prior programming experience.
 - Team Treehouse's [iOS course](http://teamtreehouse.com/features/ios) - allows a free 14-day trial, but later requires payment.
+- [Devprojects](https://www.codementor.io/projects/mobile) - free real-world mobile app projects that can be implemented for both Android and iOS.
 - [More free books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#ios)
 
 #### Windows and Windows phones
