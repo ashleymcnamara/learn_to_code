@@ -136,6 +136,7 @@ Online courses are an increasingly popular way for universities and professional
 - **[97 Things Every Programmer Should Know](http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know)** - 97 Things Every Programmer Should Know project, pearls of wisdom for programmers collected from leading practitioners. You can read through the Contributions Appearing in the Book plus the Other Edited Contributions, browse Contributions in Progress, view the list of Contributors, and also learn How to Become a Contributor. If you would simply like to comment on a contribution, please also read How to Become a Contributor as some of it applies to you.
 - **[Type Theory and Functional Programming](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/)** - Constructive Type theory has been a topic of research interest to computer scientists, mathematicians, logicians and philosophers for a number of years. For computer scientists it provides a framework which brings together logic and programming languages in a most elegant and fertile way: program development and verification can proceed within a single system.
 - **[Operating Systems and Middleware (PDF and LaTeX)](https://gustavus.edu/mcs/max/os-book/)** - Operating Systems and Middleware: Supporting Controlled Interaction by Max Hailperin
+- **[freeCodeCamp](https://www.freecodecamp.org)** - Free opensource community to learn to code, build projects and earn certifications.
 
 The following websites also contain a wide variety of tutorials for many different topics, but require payment and registration before you can access their courses.
 
@@ -256,7 +257,8 @@ Note: Similar to C, C++ can be a difficult-to-teach language. Although the onlin
       - [Programming in C# Jump Start][csharp-jump-start]
         Another series of videos produced by Microsoft. Assumes some prior knowledge of C#.
 - **Interactive tutorials:** N/A
-- **Video tutorials:** N/A
+- **Video tutorials:** 
+    - [Mike Dane Youtube Tutorials](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) - Free video tutorials on Python,Javascript, Java, C, HTML, CSS and Databases.
 - **Books and tutorials (online):**
     - [C# Programming][csharp-programming]
       One of Wikibook's featured books. For beginners. Tends to focus on syntax, and would also make a good reference.
