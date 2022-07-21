@@ -222,6 +222,8 @@ Note: Similar to C, C++ can be a difficult-to-teach language. Although the onlin
       Tends to focus more on syntax, and less on programming. Might be useful for beginners, but as a reference, not a tutorial.
     - [Linear C++][cpp-linear]
       A tutorial on C++ for people with some prior programming experience. Teaches by presenting and explaining a series of programs.
+    - [C++ tutorial for beginners][cpp-scalertopics]  
+      This tutorial is created in a well-defined structure to provide a clear learning path to the readers. Beginners can easily follow this C++ tutorial.
    - [More free books][cpp-more]
 - **Books (paper):**
    - [The Definitive C++ Book Guide and List][cpp-so-definitive]
@@ -243,6 +245,7 @@ Note: Similar to C, C++ can be a difficult-to-teach language. Although the onlin
   [cpp-learn]: http://www.learncpp.com/
   [cpp-linear]: https://github.com/jesyspa/linear-cpp
   [cpp-more]: https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#c-1
+  [cpp-scalertopics]: https://www.scaler.com/topics/cpp/
 
   [cpp-so-definitive]: http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
 
