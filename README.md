@@ -380,6 +380,8 @@ Also note that HTML and CSS are examples of "markup languages", not "programming
       30 Day Vanilla JS Coding Challenge. Build 30 things in 30 days with 30 tutorials
     - [JavaScript Tutorial][webdev-js-onevideo]
       Learn JavaScript in one 90 minute Video.
+    - [CSS Tutorial](https://www.scaler.com/topics/css)
+      Learn CSS with step-by-step guide along with applications.  
     - More free books:
         - [HTML and CSS][webdev-more-html-css]
         - [JavaScript][webdev-more-js]
