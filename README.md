@@ -1762,6 +1762,8 @@ If you're not sure which version to pick, my recommendation would be to pick the
       An interactive online guide that teaches basic Python.
     - [Try Python][python-try]
       Another interactive online guide.
+    - [Learn Python Programming][python-programming]
+      Learn Python in detail.
 - **Video tutorials:** N/A
 - **Books and tutorials (online):**
     - [Learn Python the Hard Way][python-lpthw]
@@ -1823,6 +1825,7 @@ If you're not sure which version to pick, my recommendation would be to pick the
   [python-hitchhiker]: https://python-guide.readthedocs.org/en/latest/
   [python-pycrumbs]: http://resrc.io/list/4/pycrumbs/
   [python-more]: https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python
+  [python-programming]: https://www.scaler.com/topics/python/
 
   [python-import]: http://importpython.com/books/
 
