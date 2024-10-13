@@ -106,7 +106,7 @@ If you would like to contribute, please see **[CONTRIBUTING.md][contrib]** for d
 
 ### Links to other big lists
 
-You can find a huge and utterly massive compendium of [list of free programming books and resources on github](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md). (It used to be hosted on StackOverflow, but was moved over to Github on October 2013).
+You can find a huge and utterly massive compendium of [list of free programming books and resources on github](https://github.com/EbookFoundation/free-programming-books/blob/main/README.md). (It used to be hosted on StackOverflow, but was moved over to Github on October 2013).
 
 You can also find a meta _"list of programming resources"_ aggregator here: http://resrc.io/
 
