@@ -1,0 +1,188 @@
+# Curated resource metadata for Learn to Code.
+#
+# This file is intentionally smaller than the README. It tracks the highest
+# priority resources that should be reviewed first during maintenance.
+
+resources:
+  - name: Scratch
+    url: https://scratch.mit.edu/
+    type: tool
+    topics: [beginner, kids, creative-coding]
+    cost: Free
+    audience: [absolute beginner, parent, teacher]
+    last_checked: 2026-05-16
+    notes: Gentle visual programming environment for first projects.
+
+  - name: Python Programming MOOC
+    url: https://programming-25.mooc.fi/
+    type: course
+    topics: [python, programming fundamentals]
+    cost: Free
+    audience: [absolute beginner, career switcher]
+    last_checked: 2026-05-16
+    notes: Current University of Helsinki Python-first course.
+
+  - name: Python for Everybody
+    url: https://www.py4e.com/
+    type: course
+    topics: [python, web, data]
+    cost: Free
+    audience: [absolute beginner, career switcher]
+    last_checked: 2026-05-16
+    notes: Friendly adult beginner path with practical examples.
+
+  - name: MDN Learn Web Development
+    url: https://developer.mozilla.org/en-US/docs/Learn
+    type: docs
+    topics: [html, css, javascript, web]
+    cost: Free
+    audience: [absolute beginner, web learner]
+    last_checked: 2026-05-16
+    notes: Best canonical starting point for web fundamentals.
+
+  - name: freeCodeCamp
+    url: https://www.freecodecamp.org/learn/
+    type: course
+    topics: [web, javascript, python, data, certificates]
+    cost: Free
+    audience: [absolute beginner, career switcher]
+    last_checked: 2026-05-16
+    notes: Interactive curriculum and projects; quality varies by track.
+
+  - name: The Odin Project
+    url: https://www.theodinproject.com/
+    type: curriculum
+    topics: [web, full stack, javascript, ruby]
+    cost: Free
+    audience: [web learner, career switcher]
+    last_checked: 2026-05-16
+    notes: Project-based full stack web path.
+
+  - name: CS50x
+    url: https://cs50.harvard.edu/x/
+    type: course
+    topics: [computer science, programming fundamentals]
+    cost: Free audit
+    audience: [beginner, career switcher]
+    last_checked: 2026-05-16
+    notes: Broad introduction; motivating but more intense than gentle Python paths.
+
+  - name: MIT OpenCourseWare
+    url: https://ocw.mit.edu/
+    type: course catalog
+    topics: [opencourseware, computer science, math]
+    cost: Free materials
+    audience: [self-directed learner, advanced learner]
+    last_checked: 2026-05-16
+    notes: University course materials; best when learner can self-structure.
+
+  - name: The Missing Semester of Your CS Education
+    url: https://missing.csail.mit.edu/
+    type: course
+    topics: [command line, git, tools]
+    cost: Free
+    audience: [intermediate learner, career switcher]
+    last_checked: 2026-05-16
+    notes: Practical developer workflow after basic programming starts to land.
+
+  - name: OSSU Computer Science
+    url: https://github.com/ossu/computer-science
+    type: curriculum
+    topics: [computer science, self-study]
+    cost: Free
+    audience: [self-directed learner, advanced learner]
+    last_checked: 2026-05-16
+    notes: Long-form CS degree-style path using free courses.
+
+  - name: Hello Ruby
+    url: https://www.helloruby.com/
+    type: book
+    topics: [children, computational thinking, ai literacy]
+    cost: Library/Paid
+    audience: [absolute beginner, parent, teacher, career switcher]
+    last_checked: 2026-05-16
+    notes: Visual and gentle; useful for adults who want concepts to feel less abstract.
+
+  - name: Eloquent JavaScript
+    url: https://eloquentjavascript.net/
+    type: book
+    topics: [javascript, programming fundamentals]
+    cost: Free online book
+    audience: [beginner, web learner]
+    last_checked: 2026-05-16
+    notes: Strong free JavaScript book; best after a little practice.
+
+  - name: Automate the Boring Stuff with Python
+    url: https://automatetheboringstuff.com/
+    type: book
+    topics: [python, automation]
+    cost: Free online book
+    audience: [beginner, career switcher]
+    last_checked: 2026-05-16
+    notes: Practical scripts for files, spreadsheets, scraping, and daily work.
+
+  - name: Elements of AI
+    url: https://www.elementsofai.com/
+    type: course
+    topics: [ai literacy]
+    cost: Free
+    audience: [absolute beginner, nontechnical learner]
+    last_checked: 2026-05-16
+    notes: AI overview that does not require programming.
+
+  - name: Google Machine Learning Crash Course
+    url: https://developers.google.com/machine-learning/crash-course
+    type: course
+    topics: [machine learning]
+    cost: Free
+    audience: [intermediate learner, ai learner]
+    last_checked: 2026-05-16
+    notes: Practical ML fundamentals from Google.
+
+  - name: Hugging Face LLM Course
+    url: https://huggingface.co/learn/nlp-course/chapter1/1
+    type: course
+    topics: [llms, nlp, transformers]
+    cost: Free
+    audience: [intermediate learner, ai learner]
+    last_checked: 2026-05-16
+    notes: Modern NLP and transformer course; assumes Python comfort.
+
+  - name: OpenAI Cookbook
+    url: https://github.com/openai/openai-cookbook
+    type: docs
+    topics: [ai engineering, api]
+    cost: Free materials; API may cost
+    audience: [ai builder, intermediate learner]
+    last_checked: 2026-05-16
+    notes: Official examples; learners should watch API costs and privacy.
+
+  - name: Kaggle Learn
+    url: https://www.kaggle.com/learn
+    type: course catalog
+    topics: [python, data science, machine learning]
+    cost: Free
+    audience: [data learner, ai learner]
+    last_checked: 2026-05-16
+    notes: Browser-verified; command-line link checks may return 404.
+    link_check: browser-only
+
+  - name: PortSwigger Web Security Academy
+    url: https://portswigger.net/web-security
+    type: course
+    topics: [security, web]
+    cost: Free
+    audience: [intermediate learner, security learner]
+    last_checked: 2026-05-16
+    notes: Browser-verified; command-line link checks may return 404.
+    link_check: browser-only
+
+  - name: Stack Overflow Help - Asking
+    url: https://stackoverflow.com/help/asking
+    type: docs
+    topics: [community, asking questions]
+    cost: Free
+    audience: [beginner, career switcher]
+    last_checked: 2026-05-16
+    notes: Browser-verified; command-line link checks may return 404.
+    link_check: browser-only
