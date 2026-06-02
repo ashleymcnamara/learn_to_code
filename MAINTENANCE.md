@@ -122,7 +122,8 @@ Run the online link check:
 python scripts/check_links.py --online --include-resources
 ```
 
-The GitHub Actions workflow in `.github/workflows/link-check.yml` runs the
-online check on pull requests, on demand, and monthly. A few sites are
-browser-verified but block command-line checks; keep those in the script's
-`BROWSER_ONLY_URLS` allowlist only when you have manually verified them.
+The GitHub Actions workflow in `.github/workflows/link-check.yml` runs a
+weekly scheduled lychee check (Sunday night UTC), plus pull request checks for
+Markdown changes. Scheduled failures automatically open an issue with broken
+links grouped by file, and pull requests fail only when they introduce new
+broken links. Keep known flaky URLs in `.lycheeignore`.

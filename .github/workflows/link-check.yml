@@ -2,17 +2,209 @@ name: Link check
 
 on:
   pull_request:
+    paths:
+      - "**/*.md"
+      - ".lycheeignore"
+      - ".github/workflows/link-check.yml"
   workflow_dispatch:
   schedule:
-    - cron: "0 17 1 * *"
+    - cron: "0 23 * * 0"
+
+permissions:
+  contents: read
 
 jobs:
-  links:
+  links-pr:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout PR head
+        uses: actions/checkout@v4
         with:
-          python-version: "3.x"
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Restore lychee cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Check links on PR head
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --cache --max-cache-age 1d --timeout 10 --verbose --no-progress './**/*.md'
+          format: json
+          output: ./lychee/pr-head.json
+          fail: false
+
+      - name: Checkout base branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.base.ref }}
+
+      - name: Check links on base branch
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --cache --max-cache-age 1d --timeout 10 --verbose --no-progress './**/*.md'
+          format: json
+          output: ./lychee/pr-base.json
+          fail: false
+
+      - name: Compare broken links
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from collections import defaultdict
+          from pathlib import Path
+
+          head = json.loads(Path('lychee/pr-head.json').read_text(encoding='utf-8'))
+          base = json.loads(Path('lychee/pr-base.json').read_text(encoding='utf-8'))
+
+          def flatten_errors(payload):
+              rows = set()
+              for source, items in payload.get('error_map', {}).items():
+                  for item in items:
+                      status = item.get('status', {})
+                      rows.add(
+                          (
+                              source,
+                              item.get('url', ''),
+                              status.get('code'),
+                              status.get('text', ''),
+                              status.get('details', ''),
+                          )
+                      )
+              return rows
+
+          def count_permanent_redirects(payload):
+              permanent_codes = {301, 308}
+              count = 0
+              for items in payload.get('success_map', {}).values():
+                  for item in items:
+                      status = item.get('status', {})
+                      if status.get('code') in permanent_codes:
+                          count += 1
+              return count
+
+          new_errors = sorted(flatten_errors(head) - flatten_errors(base))
+          permanent_redirects = count_permanent_redirects(head)
+
+          summary_path = os.environ.get('GITHUB_STEP_SUMMARY')
+          if summary_path:
+              with open(summary_path, 'a', encoding='utf-8') as summary:
+                  summary.write(f"### Permanent redirects detected (non-failing): {permanent_redirects}\\n\\n")
+                  if new_errors:
+                      summary.write('### New broken links in this PR\\n\\n')
+                      by_file = defaultdict(list)
+                      for source, url, code, text, details in new_errors:
+                          by_file[source].append((url, code, text, details))
+                      for source in sorted(by_file):
+                          summary.write(f"- **{source}**\\n")
+                          for url, code, text, details in by_file[source]:
+                              status = text or details or str(code or 'error')
+                              summary.write(f"  - `{url}` ({status})\\n")
+                  else:
+                      summary.write('No new broken links compared with the base branch.\\n')
+
+          if new_errors:
+              print('New broken links introduced in this PR:')
+              for source, url, code, text, details in new_errors:
+                  status = text or details or str(code or 'error')
+                  print(f"- {source}: {url} ({status})")
+              raise SystemExit(1)
+          PY
+
+      - name: Save lychee cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+
+  links-scheduled:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore lychee cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
       - name: Check links
-        run: python scripts/check_links.py --online --include-resources
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --cache --max-cache-age 1d --timeout 10 --verbose --no-progress './**/*.md'
+          format: json
+          output: ./lychee/scheduled.json
+          fail: false
+
+      - name: Build issue report
+        if: steps.lychee.outputs.exit_code != 0
+        run: |
+          python - <<'PY'
+          import json
+          from collections import defaultdict
+          from datetime import date
+          from pathlib import Path
+
+          payload = json.loads(Path('lychee/scheduled.json').read_text(encoding='utf-8'))
+          grouped = defaultdict(list)
+          permanent_redirects = 0
+          permanent_codes = {301, 308}
+
+          for source, items in payload.get('error_map', {}).items():
+              for item in items:
+                  status = item.get('status', {})
+                  status_text = status.get('text') or status.get('details') or 'Error'
+                  grouped[source].append((item.get('url', ''), status_text))
+
+          for items in payload.get('success_map', {}).values():
+              for item in items:
+                  status = item.get('status', {})
+                  if status.get('code') in permanent_codes:
+                      permanent_redirects += 1
+
+          lines = [
+              f"# Weekly link check report ({date.today().isoformat()})",
+              '',
+              f"Permanent redirects detected (non-failing): {permanent_redirects}",
+              '',
+              'Broken links grouped by file:',
+              '',
+          ]
+
+          for source in sorted(grouped):
+              lines.append(f"## {source}")
+              for url, status_text in grouped[source]:
+                  lines.append(f"- `{url}` ({status_text})")
+              lines.append('')
+
+          Path('lychee/report.md').write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8')
+          PY
+
+      - name: Create issue from report
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Weekly link check report
+          content-filepath: ./lychee/report.md
+          labels: report, automated issue
+
+      - name: Save lychee cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}

@@ -1,5 +1,7 @@
 # Learn to Code
 
+[![Link check](https://github.com/ashleymcnamara/learn_to_code/actions/workflows/link-check.yml/badge.svg)](https://github.com/ashleymcnamara/learn_to_code/actions/workflows/link-check.yml)
+
 A free-first, beginner-friendly guide to learning programming, computer science,
 AI, and the practical tools developers use every day.
 
