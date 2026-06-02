@@ -8,10 +8,14 @@ on:
       - ".github/workflows/link-check.yml"
   workflow_dispatch:
   schedule:
-    - cron: "0 23 * * 0"
+    - cron: "0 23 * * 0" # 23:00 UTC every Sunday
 
 permissions:
   contents: read
+
+env:
+  LYCHEE_ARGS: --cache --max-cache-age 1d --timeout 10 --verbose --no-progress './**/*.md'
+  PERMANENT_REDIRECT_CODES: 301,308
 
 jobs:
   links-pr:
@@ -28,13 +32,13 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: .lycheecache
-          key: cache-lychee-${{ github.sha }}
-          restore-keys: cache-lychee-
+          key: cache-lychee-pr-${{ github.event.pull_request.number }}-${{ github.run_number }}
+          restore-keys: cache-lychee-pr-${{ github.event.pull_request.number }}-
 
       - name: Check links on PR head
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --cache --max-cache-age 1d --timeout 10 --verbose --no-progress './**/*.md'
+          args: ${{ env.LYCHEE_ARGS }}
           format: json
           output: ./lychee/pr-head.json
           fail: false
@@ -48,7 +52,7 @@ jobs:
       - name: Check links on base branch
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --cache --max-cache-age 1d --timeout 10 --verbose --no-progress './**/*.md'
+          args: ${{ env.LYCHEE_ARGS }}
           format: json
           output: ./lychee/pr-base.json
           fail: false
@@ -81,7 +85,8 @@ jobs:
               return rows
 
           def count_permanent_redirects(payload):
-              permanent_codes = {301, 308}
+              # Only configured permanent redirect codes are counted.
+              permanent_codes = {int(code) for code in os.getenv('PERMANENT_REDIRECT_CODES', '301,308').split(',')}
               count = 0
               for items in payload.get('success_map', {}).values():
                   for item in items:
@@ -96,24 +101,24 @@ jobs:
           summary_path = os.environ.get('GITHUB_STEP_SUMMARY')
           if summary_path:
               with open(summary_path, 'a', encoding='utf-8') as summary:
-                  summary.write(f"### Permanent redirects detected (non-failing): {permanent_redirects}\\n\\n")
+                  summary.write(f"### Permanent redirects detected (non-failing): {permanent_redirects}\n\n")
                   if new_errors:
-                      summary.write('### New broken links in this PR\\n\\n')
+                      summary.write('### New broken links in this PR\n\n')
                       by_file = defaultdict(list)
                       for source, url, code, text, details in new_errors:
                           by_file[source].append((url, code, text, details))
                       for source in sorted(by_file):
-                          summary.write(f"- **{source}**\\n")
+                          summary.write(f"- **{source}**\n")
                           for url, code, text, details in by_file[source]:
-                              status = text or details or str(code or 'error')
-                              summary.write(f"  - `{url}` ({status})\\n")
+                              status = text or details or (str(code) if code is not None else 'error')
+                              summary.write(f"  - `{url}` ({status})\n")
                   else:
-                      summary.write('No new broken links compared with the base branch.\\n')
+                      summary.write('No new broken links compared with the base branch.\n')
 
           if new_errors:
               print('New broken links introduced in this PR:')
               for source, url, code, text, details in new_errors:
-                  status = text or details or str(code or 'error')
+                  status = text or details or (str(code) if code is not None else 'error')
                   print(f"- {source}: {url} ({status})")
               raise SystemExit(1)
           PY
@@ -123,7 +128,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: .lycheecache
-          key: cache-lychee-${{ github.sha }}
+          key: cache-lychee-pr-${{ github.event.pull_request.number }}-${{ github.run_number }}
 
   links-scheduled:
     if: github.event_name != 'pull_request'
@@ -138,14 +143,14 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: .lycheecache
-          key: cache-lychee-${{ github.sha }}
-          restore-keys: cache-lychee-
+          key: cache-lychee-scheduled-${{ github.ref_name }}-${{ github.run_number }}
+          restore-keys: cache-lychee-scheduled-${{ github.ref_name }}-
 
       - name: Check links
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --cache --max-cache-age 1d --timeout 10 --verbose --no-progress './**/*.md'
+          args: ${{ env.LYCHEE_ARGS }}
           format: json
           output: ./lychee/scheduled.json
           fail: false
@@ -155,6 +160,7 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import os
           from collections import defaultdict
           from datetime import date
           from pathlib import Path
@@ -162,7 +168,7 @@ jobs:
           payload = json.loads(Path('lychee/scheduled.json').read_text(encoding='utf-8'))
           grouped = defaultdict(list)
           permanent_redirects = 0
-          permanent_codes = {301, 308}
+          permanent_codes = {int(code) for code in os.getenv('PERMANENT_REDIRECT_CODES', '301,308').split(',')}
 
           for source, items in payload.get('error_map', {}).items():
               for item in items:
@@ -198,7 +204,7 @@ jobs:
         if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: Weekly link check report
+          title: Scheduled link check report - run ${{ github.run_number }}
           content-filepath: ./lychee/report.md
           labels: report, automated issue
 
@@ -207,4 +213,4 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: .lycheecache
-          key: cache-lychee-${{ github.sha }}
+          key: cache-lychee-scheduled-${{ github.ref_name }}-${{ github.run_number }}

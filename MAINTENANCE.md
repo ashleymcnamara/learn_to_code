@@ -123,7 +123,7 @@ python scripts/check_links.py --online --include-resources
 ```
 
 The GitHub Actions workflow in `.github/workflows/link-check.yml` runs a
-weekly scheduled lychee check (Sunday night UTC), plus pull request checks for
+weekly scheduled lychee check (11 PM Sunday UTC), plus pull request checks for
 Markdown changes. Scheduled failures automatically open an issue with broken
 links grouped by file, and pull requests fail only when they introduce new
 broken links. Keep known flaky URLs in `.lycheeignore`.
