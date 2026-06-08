@@ -1,0 +1,69 @@
+name: Issue triage
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  label:
+    name: Auto-label
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const text = `${issue.title} ${issue.body ?? ''}`.toLowerCase();
+            const labels = [];
+
+            if (/\b(resource|add|link)\b/.test(text)) labels.push('resource-suggestion');
+            if (/\b(bug|broken|404)\b/.test(text))   labels.push('broken-link');
+            if (/\b(question|how)\b/.test(text))      labels.push('question');
+
+            if (labels.length) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels,
+              });
+            }
+
+  welcome:
+    name: Welcome first-time contributors
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const creator = context.payload.issue.user.login;
+
+            // Check if this user has any prior issues (excluding the current one)
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              creator,
+              state: 'all',
+              per_page: 2,
+            });
+
+            const priorIssues = issues.filter(i => i.number !== context.payload.issue.number);
+            if (priorIssues.length > 0) return;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: [
+                `👋 Welcome, @${creator}! Thanks for opening your first issue here.`,
+                '',
+                'This is a community-maintained collection of learning resources, and contributions like yours help keep it useful for everyone.',
+                '',
+                'Take a look at the [README](../blob/master/README.md) for an overview of how the repo is organized. If you\'re suggesting a new resource, the issue templates can help structure your suggestion.',
+                '',
+                'A maintainer will take a look soon. Thanks for being here! 🎉',
+              ].join('\n'),
+            });
