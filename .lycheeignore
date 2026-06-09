@@ -1,0 +1,16 @@
+# Known flaky or rate-limited URLs
+# Add URLs (one per line) that should be excluded from link checking.
+# Supports regex patterns.
+
+# Twitter/X often rate-limits or blocks automated checks
+https?://(www\.)?twitter\.com(/.*)?
+https?://(www\.)?x\.com(/.*)?
+
+# LinkedIn blocks automated requests
+https?://(www\.)?linkedin\.com(/.*)?
+
+# Facebook blocks automated requests
+https?://(www\.)?facebook\.com(/.*)?
+
+# Archive.org can be slow or intermittently unavailable
+https?://web\.archive\.org(/.*)?
