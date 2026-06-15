@@ -1024,7 +1024,7 @@ notice when they are wrong.
   monitoring, and iteration. **Free**
 - [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) -
   practical ML engineering and deployment. **Free**
-- [Full Stack Deep Learning](https://fullstackdeeplearning.com/) - ML product
+- [Full Stack Deep Learning](https://github.com/the-full-stack/the-full-stack-website) - ML product
   engineering and deployment. **Free materials**
 - [Hugging Face Agents Course](https://huggingface.co/learn/agents-course) -
   agent concepts and hands-on projects when publicly available. **Free**
