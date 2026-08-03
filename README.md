@@ -222,8 +222,7 @@ automation.
 1. [Python for Everybody](https://www.py4e.com/)
 2. [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 3. [SQLBolt](https://sqlbolt.com/)
-4. [Kaggle Learn](https://www.kaggle.com/learn)
-5. [Data 8](https://www.data8.org/) for a university-style data science course
+4. [Data 8](https://www.data8.org/) for a university-style data science course
 
 Build: file renamer, CSV cleaner, spreadsheet report generator, API client, data
 dashboard.
@@ -923,8 +922,6 @@ building useful projects.
 
 - [CMU Database Group Courses](https://15445.courses.cs.cmu.edu/) - public
   database systems courses. **Free materials**
-- [Database System Concepts](https://www.db-book.com/) - classic database
-  textbook companion site. **Free materials**
 - [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) - practical
   PostgreSQL. **Free**
 
@@ -934,8 +931,6 @@ building useful projects.
   textbook companion resources. **Free materials**
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) -
   practical web security testing. **Free**
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security) -
-  hands-on web security labs. **Free**
 - [Cryptohack](https://cryptohack.org/) - cryptography practice. **Free**
 
 ### Compilers and Programming Languages
@@ -986,8 +981,6 @@ notice when they are wrong.
   Python projects. **Free audit**
 - [Stanford CS229 via SEE](https://see.stanford.edu/Course/CS229) - classic ML
   lectures. **Free materials**
-- [Kaggle Learn](https://www.kaggle.com/learn) - short practical data and ML
-  courses. **Free**
 
 ### Deep Learning
 
@@ -1056,7 +1049,6 @@ notice when they are wrong.
 
 - [Data 8](https://www.data8.org/) - Berkeley foundations of data science.
   **Free**
-- [Kaggle Learn](https://www.kaggle.com/learn) - short practical courses.
   **Free**
 - [Microsoft Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) -
   10-week curriculum. **Free**
